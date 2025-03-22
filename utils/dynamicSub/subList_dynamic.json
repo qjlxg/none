@@ -1,5 +1,5 @@
 [
- {
+  {
     "id": 1,
     "remarks": "www.cfmem.com",
     "site": "https://www.cfmem.com/search/label/free",
@@ -31,7 +31,7 @@
     "update_method": "change_date",
     "enabled": false
   },
- {
+  {
     "id": 6,
     "remarks": "ss",
     "site": "ss",

@@ -5,4 +5,4 @@ updatetime: 6h - 22h
 [2025-03-22 17:51:06]: collect AP
 [2025-03-22 18:01:22]: mining
 [2025-03-22 19:58:50]: static sub
-[2025-03-22 21:07:10]: dynamic sub
+[2025-03-22 21:22:26]: dynamic sub
