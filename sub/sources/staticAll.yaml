@@ -4331,6 +4331,27 @@ proxies:
   - {name: TR-TCP-TLS 🇨🇳 CN-183.240.139.234:8443, server: 183.240.139.234, port: 8443, type: trojan, password: 96983eb4-c8f1-316e-ab00-500014ed3d8b, sni: official.taipeicitygovernment.co.ua, skip-cert-verify: true}
   - {name: TR-TCP-TLS 🇺🇸 US-216.24.57.1:2053, server: 216.24.57.1, port: 2053, type: trojan, password: Aimer, sni: ngep.ambercc.filegear-sg.me}
   - {name: TR-TCP-NA 🏴‍☠️ NA-104.16.80.174:443, server: 104.16.80.174, port: 443, type: trojan, password: NISHIKUITAN111}
+  - {name: LATEST-UPDATE 📅 SAT-02-FARVARDIN-1404 🕑 15:20, server: 127.0.0.1, port: 1080, type: vmess, uuid: bccbaaa-bcaa-abac-bcad-abcbcabcaabc, alterId: 0, cipher: auto, tls: false}
+  - {name: TELEGRAM-CHANNEL 💡 NEUROVANCE 🧠 4, server: 127.0.0.1, port: 2080, type: vmess, uuid: bacabca-baac-caab-abdc-acacbbbaccba, alterId: 0, cipher: auto, tls: false}
+  - {name: VM-WS-TLS 🏴‍☠️ NA-104.21.32.1:443, server: 104.21.32.1, port: 443, type: vmess, uuid: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a, alterId: 0, cipher: auto, tls: true, servername: Us7-03.890624.Xyz, network: ws, ws-opts: {path: /bua2hMcbA8wMzbGFtV, headers: {Host: us7-03.890624.xyz}}}
+  - {name: VM-WS-TLS 🏴‍☠️ NA-172.67.204.84:8443, server: 172.67.204.84, port: 8443, type: vmess, uuid: c8eb6ef8-3d05-4af3-bdd7-117a2eef1d27, alterId: 0, cipher: auto, tls: true, servername: zula.shayancodm.ggff.net, network: ws, ws-opts: {path: "/@hose_io,@hose_io,@hose_io,@hose_io,@hose_io@hose_io,@hose_io,@hose_io,?ed=2018", headers: {Host: zula.shayancodm.ggff.net}}}
+  - {name: ‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ 4, server: 127.0.0.1, port: 8080, type: vmess, uuid: accabab-acba-acba-bdca-aacbcbbbccaa, alterId: 0, cipher: auto, tls: false}
+  - {name: LATEST-UPDATE 📅 SAT-02-FARVARDIN-1404 🕑 15:20 2, server: 127.0.0.1, port: 1080, type: trojan, password: bccbaaa-bcaa-abac-bcad-abcbcabcaabc}
+  - {name: TELEGRAM-CHANNEL 💡 NEUROVANCE 🧠 5, server: 127.0.0.1, port: 2080, type: trojan, password: bacabca-baac-caab-abdc-acacbbbaccba}
+  - {name: TR-TCP-TLS 🇫🇷 FR-51.44.138.115:22222 2, server: 51.44.138.115, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
+  - {name: TR-TCP-TLS 🇮🇪 IE-34.248.179.178:22222 2, server: 34.248.179.178, port: 22222, type: trojan, password: telegram-id-v2rayvpnchannel, sni: trojan.burgerip.co.uk}
+  - {name: TR-TCP-TLS 🇮🇪 IE-54.247.181.26:22222, server: 54.247.181.26, port: 22222, type: trojan, password: telegram-id-v2rayvpnchannel, sni: trojan.burgerip.co.uk}
+  - {name: TR-TCP-TLS 🇬🇧 GB-18.133.107.64:22222 2, server: 18.133.107.64, port: 22222, type: trojan, password: telegram-id-v2rayvpnchannel, sni: trojan.burgerip.co.uk}
+  - {name: ‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ 5, server: 127.0.0.1, port: 8080, type: trojan, password: accabab-acba-acba-bdca-aacbcbbbccaa}
+  - {name: SS-TCP-NA 🇨🇳 CN-125.94.45.121:15008, server: 125.94.45.121, port: 15008, type: ss, cipher: aes-256-gcm, password: Q3PP7TUVTV756YSB}
+  - {name: SS-TCP-NA 🇫🇷 FR-45.158.171.146:8080 2, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
+  - {name: SS-TCP-NA 🇱🇹 LT-45.87.175.154:8080 2, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
+  - {name: SS-TCP-NA 🇩🇪 DE-81.19.141.45:443 2, server: 81.19.141.45, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bT4Py02UKdYmjtMAucifMl}
+  - {name: SS-TCP-NA 🇧🇭 BH-157.175.135.28:443, server: 157.175.135.28, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
+  - {name: SS-TCP-NA 🇬🇧 GB-74.177.241.29:443 2, server: 74.177.241.29, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wil98bAJdQS0s3DH}
+  - {name: SS-TCP-NA 🇬🇧 GB-185.5.38.111:55988 2, server: 185.5.38.111, port: 55988, type: ss, cipher: chacha20-ietf-poly1305, password: 27NDoVz3MepkWeZz4es6T1XsuHByjB2m4CUBYeWig6wjxqz5AyZZUAtH7xPKDcb8AYeK3gc9AS4BN4pMbPE6FLeHH7SidBV1}
+  - {name: SS-TCP-NA 🇵🇱 PL-77.83.246.74:443 2, server: 77.83.246.74, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: MOMXkqeCSLNHlVy1Avdqm2}
+  - {name: SS-TCP-NA 🇫🇷 FR-45.158.171.151:8080 2, server: 45.158.171.151, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
   - {name: _US_美国->🇩🇪_DE_德国_1_0@0, server: 104.21.225.104, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
   - {name: _US_美国->🇩🇪_DE_德国_2_0@1, server: 104.21.226.32, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
   - {name: _US_美国->🇩🇪_DE_德国_3_0@2, server: 104.21.225.68, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
