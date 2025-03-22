@@ -62,5 +62,5 @@ jobs:
             git add ./utils/airport/collectAirport/subconverter.tar.gz
             git add ./sub/
             git commit -m "collect Airport at $(date '+%Y-%m-%d %H:%M:%S')"
-            git push
+            git push -f
          
