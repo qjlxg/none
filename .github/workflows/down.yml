@@ -23,7 +23,7 @@ jobs:
       - name: 执行任务 -down clash
         run: |
           python ./utils/clashdown.py
-          cp https://github.com/qjlxg/YBSubCrawler/raw/refs/heads/main/sub/share/available ./tools/available
+          
           cp ./ClashMeta_Android.apk ./tools/ClashMeta_Android.apk
       - name: Commit
         id: commit
