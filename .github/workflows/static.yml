@@ -55,13 +55,4 @@ jobs:
       with:
         branch: main
 
-    - name: Pushes to proxies
-      uses: rxsweet/copy_file_to_another_repo_action@main
-      env:
-        API_TOKEN_GITHUB: ${{secrets.ACTIONS_USE}}
-      with:
-        source_file: 'sub/'
-        destination_repo: 'rxsweet/proxies'
-        user_email: 'actions@github.com'
-        user_name: 'GitHub Actions'
-        commit_message: 'static sub update'
+    
