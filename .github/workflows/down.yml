@@ -35,17 +35,4 @@ jobs:
           git commit -m "$(date '+%Y-%m-%d %H:%M:%S') down done"
           #git commit -m "${{ github.workflow }} https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           git pull --rebase
-      - uses: ad-m/github-push-action@master
-        if: ${{ steps.commit.outcome == 'success' }}
-      #- name: Run get_trial_update_url.py
-        #run: python get_trial_update_url.py
-      - name: Pushes to proxies
-        uses: rxsweet/copy_file_to_another_repo_action@main
-        env:
-         API_TOKEN_GITHUB: ${{ secrets.ACTIONS_USE }}
-        with:
-          source_file: 'tools/'
-          destination_repo: 'rxsweet/proxies'
-          user_email: 'actions@github.com'
-          user_name: 'GitHub Actions'
-          commit_message: 'down done'
+      
