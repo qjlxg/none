@@ -5,109 +5,73 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 1.--_US_美国->🇸🇬_SG_新加坡, server: 44.246.28.217, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 2.--_US_美国, server: 54.202.63.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 3.--_US_美国->🇨🇳_CN_中国_1, server: 35.87.29.54, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 4.--_US_美国_8, server: 54.184.74.88, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 5.--_CH_瑞士, server: 84.17.53.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 6.--_SK_斯洛伐克, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 7.--_US_美国->🇰🇷_KR_韩国_1, server: 34.210.253.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 8.--US美国(mibei77.com 米贝节点分享) 12, server: sto2.g.edgeservers.org, port: 15128, type: ss, cipher: chacha20-ietf-poly1305, password: 70Xwg0SbHSL8CuCkiLuGhO, udp: true}
-  - {name: 9.--_US_美国_2, server: 44.242.208.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 10.--HK香港(mibei77.com 米贝节点分享) 6, server: 43.129.171.137, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: 11.--_US_美国->🇸🇬_SG_新加坡_1, server: 34.213.241.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 12.--_US_美国->🇸🇬_SG_新加坡_4, server: 34.209.89.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 13.--_US_美国->🇨🇳_CN_中国_4, server: dignity.taiwanesefood.link, port: 443, type: trojan, password: XeaIS3ZCZlSuxuaXAxzqSwpjyOTzDpj6ERDZppYO8CCq7NSa38YEAFy9a4OcyKD3c3C80, udp: true}
-  - {name: 14.--_US_美国->🇨🇳_CN_中国_2, server: 34.219.111.188, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 15.--_KR_韩国, server: 154.223.16.212, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 16.--_US_美国->🇨🇳_CN_中国_5, server: 54.187.221.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 17.--_US_美国->🇸🇬_SG_新加坡_6, server: 34.217.59.177, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 18.--_US_美国_8 2, server: 35.212.201.133, port: 2082, type: vmess, uuid: 4ab93d97-c088-4ea3-89ad-f816f514a2cb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 4ab93d97-c088-4ea3-89ad-f816f514a2cb-vm}, udp: true}
-  - {name: 19.--_US_美国_6 2, server: 35.91.216.191, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 20.--_GB_英国_2, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 21.--_US_美国->🇨🇳_CN_中国_1 2, server: 52.40.170.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 22.--_US_美国_4 2, server: 107.172.132.248, port: 443, type: trojan, password: 85950277-f447-48f0-9ead-aaf6d5ff3cad, sni: huangshang9.zone.id, network: ws, ws-opts: {path: /I4L1BP2DQVYmx5NYQ76MGGq, headers: {Host: huangshang9.zone.id}}, udp: true}
-  - {name: 23.--日本4, server: visual.superpokemon.com, port: 443, type: trojan, password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S, sni: visual.superpokemon.com, skip-cert-verify: false}
-  - {name: 24.--日本5, server: tenderly.meijireform.com, port: 28337, type: trojan, password: Y0IweO6223CjwZD8FFZAaCz3yTYxDKX9yOAlXp5FTRONDaZl3zSeS7a3D4cYuCxFRx7yS, sni: tenderly.meijireform.com, skip-cert-verify: false}
-  - {name: 25.--_DE_德国, server: 185.85.241.196, port: 8080, type: vmess, uuid: a9b84c67-6143-4db3-abc0-d9fa332205cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: a9b84c67-6143-4db3-abc0-d9fa332205cc-vm}, udp: true}
-  - {name: 26.--韩国特殊, server: 52.78.98.141, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 27.--日本特殊, server: 3.34.253.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 28.--狮城特殊, server: 43.203.196.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 29.--日本3, server: terture.meijireform.com, port: 443, type: trojan, password: 0FaYIOcSy4lBg38yRxnj7RlR3RZYSq3pC9OaSDAAOw6Oe8FCpy08u8pzx3eKZacDz3XE3, sni: terture.meijireform.com, skip-cert-verify: false}
-  - {name: 30.--新加坡2, server: okanc.node-is.green, port: 21115, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83}
-  - {name: 31.--台湾, server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 1.--_CH_瑞士, server: 84.17.53.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 2.--_US_美国_3, server: 34.219.71.252, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 3.--_SK_斯洛伐克, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 4.--_US_美国_9, server: 35.87.37.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 5.--_US_美国_8, server: 54.184.74.88, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 6.--US美国(mibei77.com 米贝节点分享) 12, server: sto2.g.edgeservers.org, port: 15128, type: ss, cipher: chacha20-ietf-poly1305, password: 70Xwg0SbHSL8CuCkiLuGhO, udp: true}
+  - {name: 7.--_US_美国_4, server: stodewrn.homeofbrave.net, port: 443, type: trojan, password: ZCR3pplzBEDwYy3w3e8X685aCxFCgaIeYSxSROa97KxDxaC328lD0T4z7SynagqSXA6cR}
+  - {name: 8.--HK香港(mibei77.com 米贝节点分享) 6, server: 43.129.171.137, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 9.--_KR_韩国, server: 154.223.16.212, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 10.--_US_美国->🇸🇬_SG_新加坡_1, server: 34.213.241.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 11.--_US_美国->🇨🇳_CN_中国_2, server: 34.219.111.188, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 12.--_GB_英国_1, server: 185.184.70.90, port: 2082, type: vmess, uuid: 7e84b5b9-e9fe-4dbe-906d-4abd67c09376, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 7e84b5b9-e9fe-4dbe-906d-4abd67c09376-vm}, udp: true}
+  - {name: 13.--_GB_英国_2, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 14.--_US_美国->🇸🇬_SG_新加坡_6, server: 34.217.59.177, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 15.--_US_美国_4 2, server: 107.172.132.248, port: 443, type: trojan, password: 85950277-f447-48f0-9ead-aaf6d5ff3cad, sni: huangshang9.zone.id, network: ws, ws-opts: {path: /I4L1BP2DQVYmx5NYQ76MGGq, headers: {Host: huangshang9.zone.id}}, udp: true}
+  - {name: 16.--_US_美国_8 2, server: 35.212.201.133, port: 2082, type: vmess, uuid: 4ab93d97-c088-4ea3-89ad-f816f514a2cb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 4ab93d97-c088-4ea3-89ad-f816f514a2cb-vm}, udp: true}
+  - {name: 17.--_US_美国->🇨🇳_CN_中国_4, server: dignity.taiwanesefood.link, port: 443, type: trojan, password: XeaIS3ZCZlSuxuaXAxzqSwpjyOTzDpj6ERDZppYO8CCq7NSa38YEAFy9a4OcyKD3c3C80, udp: true}
+  - {name: 18.--日本5, server: tenderly.meijireform.com, port: 28337, type: trojan, password: Y0IweO6223CjwZD8FFZAaCz3yTYxDKX9yOAlXp5FTRONDaZl3zSeS7a3D4cYuCxFRx7yS, sni: tenderly.meijireform.com, skip-cert-verify: false}
+  - {name: 19.--日本3, server: terture.meijireform.com, port: 443, type: trojan, password: 0FaYIOcSy4lBg38yRxnj7RlR3RZYSq3pC9OaSDAAOw6Oe8FCpy08u8pzx3eKZacDz3XE3, sni: terture.meijireform.com, skip-cert-verify: false}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
-      - 1.--_US_美国->🇸🇬_SG_新加坡
-      - 2.--_US_美国
-      - 3.--_US_美国->🇨🇳_CN_中国_1
-      - 4.--_US_美国_8
-      - 5.--_CH_瑞士
-      - 6.--_SK_斯洛伐克
-      - 7.--_US_美国->🇰🇷_KR_韩国_1
-      - 8.--US美国(mibei77.com 米贝节点分享) 12
-      - 9.--_US_美国_2
-      - 10.--HK香港(mibei77.com 米贝节点分享) 6
-      - 11.--_US_美国->🇸🇬_SG_新加坡_1
-      - 12.--_US_美国->🇸🇬_SG_新加坡_4
-      - 13.--_US_美国->🇨🇳_CN_中国_4
-      - 14.--_US_美国->🇨🇳_CN_中国_2
-      - 15.--_KR_韩国
-      - 16.--_US_美国->🇨🇳_CN_中国_5
-      - 17.--_US_美国->🇸🇬_SG_新加坡_6
-      - 18.--_US_美国_8 2
-      - 19.--_US_美国_6 2
-      - 20.--_GB_英国_2
-      - 21.--_US_美国->🇨🇳_CN_中国_1 2
-      - 22.--_US_美国_4 2
-      - 23.--日本4
-      - 24.--日本5
-      - 25.--_DE_德国
-      - 26.--韩国特殊
-      - 27.--日本特殊
-      - 28.--狮城特殊
-      - 29.--日本3
-      - 30.--新加坡2
-      - 31.--台湾
+      - 1.--_CH_瑞士
+      - 2.--_US_美国_3
+      - 3.--_SK_斯洛伐克
+      - 4.--_US_美国_9
+      - 5.--_US_美国_8
+      - 6.--US美国(mibei77.com 米贝节点分享) 12
+      - 7.--_US_美国_4
+      - 8.--HK香港(mibei77.com 米贝节点分享) 6
+      - 9.--_KR_韩国
+      - 10.--_US_美国->🇸🇬_SG_新加坡_1
+      - 11.--_US_美国->🇨🇳_CN_中国_2
+      - 12.--_GB_英国_1
+      - 13.--_GB_英国_2
+      - 14.--_US_美国->🇸🇬_SG_新加坡_6
+      - 15.--_US_美国_4 2
+      - 16.--_US_美国_8 2
+      - 17.--_US_美国->🇨🇳_CN_中国_4
+      - 18.--日本5
+      - 19.--日本3
   - name: 自动选择
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 50
     proxies:
-      - 1.--_US_美国->🇸🇬_SG_新加坡
-      - 2.--_US_美国
-      - 3.--_US_美国->🇨🇳_CN_中国_1
-      - 4.--_US_美国_8
-      - 5.--_CH_瑞士
-      - 6.--_SK_斯洛伐克
-      - 7.--_US_美国->🇰🇷_KR_韩国_1
-      - 8.--US美国(mibei77.com 米贝节点分享) 12
-      - 9.--_US_美国_2
-      - 10.--HK香港(mibei77.com 米贝节点分享) 6
-      - 11.--_US_美国->🇸🇬_SG_新加坡_1
-      - 12.--_US_美国->🇸🇬_SG_新加坡_4
-      - 13.--_US_美国->🇨🇳_CN_中国_4
-      - 14.--_US_美国->🇨🇳_CN_中国_2
-      - 15.--_KR_韩国
-      - 16.--_US_美国->🇨🇳_CN_中国_5
-      - 17.--_US_美国->🇸🇬_SG_新加坡_6
-      - 18.--_US_美国_8 2
-      - 19.--_US_美国_6 2
-      - 20.--_GB_英国_2
-      - 21.--_US_美国->🇨🇳_CN_中国_1 2
-      - 22.--_US_美国_4 2
-      - 23.--日本4
-      - 24.--日本5
-      - 25.--_DE_德国
-      - 26.--韩国特殊
-      - 27.--日本特殊
-      - 28.--狮城特殊
-      - 29.--日本3
-      - 30.--新加坡2
-      - 31.--台湾
+      - 1.--_CH_瑞士
+      - 2.--_US_美国_3
+      - 3.--_SK_斯洛伐克
+      - 4.--_US_美国_9
+      - 5.--_US_美国_8
+      - 6.--US美国(mibei77.com 米贝节点分享) 12
+      - 7.--_US_美国_4
+      - 8.--HK香港(mibei77.com 米贝节点分享) 6
+      - 9.--_KR_韩国
+      - 10.--_US_美国->🇸🇬_SG_新加坡_1
+      - 11.--_US_美国->🇨🇳_CN_中国_2
+      - 12.--_GB_英国_1
+      - 13.--_GB_英国_2
+      - 14.--_US_美国->🇸🇬_SG_新加坡_6
+      - 15.--_US_美国_4 2
+      - 16.--_US_美国_8 2
+      - 17.--_US_美国->🇨🇳_CN_中国_4
+      - 18.--日本5
+      - 19.--日本3
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -115,116 +79,76 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 1.--_US_美国->🇸🇬_SG_新加坡
-      - 2.--_US_美国
-      - 3.--_US_美国->🇨🇳_CN_中国_1
-      - 4.--_US_美国_8
-      - 5.--_CH_瑞士
-      - 6.--_SK_斯洛伐克
-      - 7.--_US_美国->🇰🇷_KR_韩国_1
-      - 8.--US美国(mibei77.com 米贝节点分享) 12
-      - 9.--_US_美国_2
-      - 10.--HK香港(mibei77.com 米贝节点分享) 6
-      - 11.--_US_美国->🇸🇬_SG_新加坡_1
-      - 12.--_US_美国->🇸🇬_SG_新加坡_4
-      - 13.--_US_美国->🇨🇳_CN_中国_4
-      - 14.--_US_美国->🇨🇳_CN_中国_2
-      - 15.--_KR_韩国
-      - 16.--_US_美国->🇨🇳_CN_中国_5
-      - 17.--_US_美国->🇸🇬_SG_新加坡_6
-      - 18.--_US_美国_8 2
-      - 19.--_US_美国_6 2
-      - 20.--_GB_英国_2
-      - 21.--_US_美国->🇨🇳_CN_中国_1 2
-      - 22.--_US_美国_4 2
-      - 23.--日本4
-      - 24.--日本5
-      - 25.--_DE_德国
-      - 26.--韩国特殊
-      - 27.--日本特殊
-      - 28.--狮城特殊
-      - 29.--日本3
-      - 30.--新加坡2
-      - 31.--台湾
+      - 1.--_CH_瑞士
+      - 2.--_US_美国_3
+      - 3.--_SK_斯洛伐克
+      - 4.--_US_美国_9
+      - 5.--_US_美国_8
+      - 6.--US美国(mibei77.com 米贝节点分享) 12
+      - 7.--_US_美国_4
+      - 8.--HK香港(mibei77.com 米贝节点分享) 6
+      - 9.--_KR_韩国
+      - 10.--_US_美国->🇸🇬_SG_新加坡_1
+      - 11.--_US_美国->🇨🇳_CN_中国_2
+      - 12.--_GB_英国_1
+      - 13.--_GB_英国_2
+      - 14.--_US_美国->🇸🇬_SG_新加坡_6
+      - 15.--_US_美国_4 2
+      - 16.--_US_美国_8 2
+      - 17.--_US_美国->🇨🇳_CN_中国_4
+      - 18.--日本5
+      - 19.--日本3
   - name: 中国节点
     type: select
     proxies:
-      - 3.--_US_美国->🇨🇳_CN_中国_1
-      - 10.--HK香港(mibei77.com 米贝节点分享) 6
-      - 13.--_US_美国->🇨🇳_CN_中国_4
-      - 14.--_US_美国->🇨🇳_CN_中国_2
-      - 16.--_US_美国->🇨🇳_CN_中国_5
-      - 21.--_US_美国->🇨🇳_CN_中国_1 2
-      - 31.--台湾
+      - 8.--HK香港(mibei77.com 米贝节点分享) 6
+      - 11.--_US_美国->🇨🇳_CN_中国_2
+      - 17.--_US_美国->🇨🇳_CN_中国_4
   - name: 日本节点
     type: select
     proxies:
-      - 23.--日本4
-      - 24.--日本5
-      - 27.--日本特殊
-      - 29.--日本3
+      - 18.--日本5
+      - 19.--日本3
   - name: 新加坡节点
     type: select
     proxies:
-      - 1.--_US_美国->🇸🇬_SG_新加坡
-      - 11.--_US_美国->🇸🇬_SG_新加坡_1
-      - 12.--_US_美国->🇸🇬_SG_新加坡_4
-      - 17.--_US_美国->🇸🇬_SG_新加坡_6
-      - 28.--狮城特殊
-      - 30.--新加坡2
+      - 10.--_US_美国->🇸🇬_SG_新加坡_1
+      - 14.--_US_美国->🇸🇬_SG_新加坡_6
   - name: 美国节点
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 150
     proxies:
-      - 1.--_US_美国->🇸🇬_SG_新加坡
-      - 2.--_US_美国
-      - 3.--_US_美国->🇨🇳_CN_中国_1
-      - 4.--_US_美国_8
-      - 7.--_US_美国->🇰🇷_KR_韩国_1
-      - 8.--US美国(mibei77.com 米贝节点分享) 12
-      - 9.--_US_美国_2
-      - 11.--_US_美国->🇸🇬_SG_新加坡_1
-      - 12.--_US_美国->🇸🇬_SG_新加坡_4
-      - 13.--_US_美国->🇨🇳_CN_中国_4
-      - 14.--_US_美国->🇨🇳_CN_中国_2
-      - 16.--_US_美国->🇨🇳_CN_中国_5
-      - 17.--_US_美国->🇸🇬_SG_新加坡_6
-      - 18.--_US_美国_8 2
-      - 19.--_US_美国_6 2
-      - 21.--_US_美国->🇨🇳_CN_中国_1 2
-      - 22.--_US_美国_4 2
+      - 2.--_US_美国_3
+      - 4.--_US_美国_9
+      - 5.--_US_美国_8
+      - 6.--US美国(mibei77.com 米贝节点分享) 12
+      - 7.--_US_美国_4
+      - 10.--_US_美国->🇸🇬_SG_新加坡_1
+      - 11.--_US_美国->🇨🇳_CN_中国_2
+      - 14.--_US_美国->🇸🇬_SG_新加坡_6
+      - 15.--_US_美国_4 2
+      - 16.--_US_美国_8 2
+      - 17.--_US_美国->🇨🇳_CN_中国_4
 rules:
-  - IP-CIDR,44.246.28.217/32,DIRECT,no-resolve
-  - IP-CIDR,54.202.63.169/32,DIRECT,no-resolve
-  - IP-CIDR,35.87.29.54/32,DIRECT,no-resolve
-  - IP-CIDR,54.184.74.88/32,DIRECT,no-resolve
   - IP-CIDR,84.17.53.160/32,DIRECT,no-resolve
+  - IP-CIDR,34.219.71.252/32,DIRECT,no-resolve
   - IP-CIDR,156.146.40.194/32,DIRECT,no-resolve
-  - IP-CIDR,34.210.253.95/32,DIRECT,no-resolve
+  - IP-CIDR,35.87.37.159/32,DIRECT,no-resolve
+  - IP-CIDR,54.184.74.88/32,DIRECT,no-resolve
   - DOMAIN,sto2.g.edgeservers.org,DIRECT
-  - IP-CIDR,44.242.208.211/32,DIRECT,no-resolve
+  - DOMAIN,stodewrn.homeofbrave.net,DIRECT
   - IP-CIDR,43.129.171.137/32,DIRECT,no-resolve
-  - IP-CIDR,34.213.241.48/32,DIRECT,no-resolve
-  - IP-CIDR,34.209.89.4/32,DIRECT,no-resolve
-  - DOMAIN,dignity.taiwanesefood.link,DIRECT
-  - IP-CIDR,34.219.111.188/32,DIRECT,no-resolve
   - IP-CIDR,154.223.16.212/32,DIRECT,no-resolve
-  - IP-CIDR,54.187.221.114/32,DIRECT,no-resolve
-  - IP-CIDR,34.217.59.177/32,DIRECT,no-resolve
-  - IP-CIDR,35.212.201.133/32,DIRECT,no-resolve
-  - IP-CIDR,35.91.216.191/32,DIRECT,no-resolve
+  - IP-CIDR,34.213.241.48/32,DIRECT,no-resolve
+  - IP-CIDR,34.219.111.188/32,DIRECT,no-resolve
+  - IP-CIDR,185.184.70.90/32,DIRECT,no-resolve
   - IP-CIDR,62.100.205.48/32,DIRECT,no-resolve
-  - IP-CIDR,52.40.170.193/32,DIRECT,no-resolve
+  - IP-CIDR,34.217.59.177/32,DIRECT,no-resolve
   - IP-CIDR,107.172.132.248/32,DIRECT,no-resolve
-  - DOMAIN,visual.superpokemon.com,DIRECT
+  - IP-CIDR,35.212.201.133/32,DIRECT,no-resolve
+  - DOMAIN,dignity.taiwanesefood.link,DIRECT
   - DOMAIN,tenderly.meijireform.com,DIRECT
-  - IP-CIDR,185.85.241.196/32,DIRECT,no-resolve
-  - IP-CIDR,52.78.98.141/32,DIRECT,no-resolve
-  - IP-CIDR,3.34.253.95/32,DIRECT,no-resolve
-  - IP-CIDR,43.203.196.43/32,DIRECT,no-resolve
   - DOMAIN,terture.meijireform.com,DIRECT
-  - DOMAIN,okanc.node-is.green,DIRECT
-  - IP-CIDR,112.132.215.12/32,DIRECT,no-resolve
   - MATCH,手动切换
