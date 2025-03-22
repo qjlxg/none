@@ -3,7 +3,7 @@ sources:
   name: subs
   options:
     urls:
-    - https://github.com/qjlxg/porxy/raw/refs/heads/main/combine.txt
+    - https://raw.githubusercontent.com/qjlxg/sp2/refs/heads/master/Eternity.yml
     - https://fs.v2rayse.com/share/20250322/th62bwskak.yaml
     - http://mm.mibei77.com/202503/03.22Clashikm.yaml
     - ''
