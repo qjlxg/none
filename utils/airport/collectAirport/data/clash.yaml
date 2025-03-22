@@ -5,52 +5,52 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港03, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 9ebf7bff-d1b3-4ddc-8387-944f73ac3091, udp: true}
-  - {name: 🇺🇸 美国 纽约2, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 9ebf7bff-d1b3-4ddc-8387-944f73ac3091, udp: true}
-  - {name: 🇯🇵 日本02, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 9ebf7bff-d1b3-4ddc-8387-944f73ac3091, udp: true}
-  - {name: X5-URN, server: hk.kfsldflk.xyz, port: 1200, type: ss, cipher: aes-256-gcm, password: 9ebf7bff-d1b3-4ddc-8387-944f73ac3091, udp: true}
-  - {name: 🇯🇵 日本01, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 9ebf7bff-d1b3-4ddc-8387-944f73ac3091, udp: true}
-  - {name: 🇭🇰 香港01, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 9ebf7bff-d1b3-4ddc-8387-944f73ac3091, udp: true}
-  - {name: 🇨🇳 台湾 1, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 9ebf7bff-d1b3-4ddc-8387-944f73ac3091, udp: true}
-  - {name: 🇯🇵 日本04, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 9ebf7bff-d1b3-4ddc-8387-944f73ac3091, udp: true}
-  - {name: 🇭🇰 香港02, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 9ebf7bff-d1b3-4ddc-8387-944f73ac3091, udp: true}
-  - {name: 🇺🇸 美国 纽约01, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 9ebf7bff-d1b3-4ddc-8387-944f73ac3091, udp: true}
-  - {name: 🇯🇵 日本03, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 9ebf7bff-d1b3-4ddc-8387-944f73ac3091, udp: true}
-  - {name: 🇨🇳 台湾01, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 9ebf7bff-d1b3-4ddc-8387-944f73ac3091, udp: true}
+  - {name: 🇯🇵 日本02, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 7e55412e-82bb-4c2e-a9ba-3cd0463ce532, udp: true}
+  - {name: 🇨🇳 台湾01, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 7e55412e-82bb-4c2e-a9ba-3cd0463ce532, udp: true}
+  - {name: 🇨🇳 台湾 1, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 7e55412e-82bb-4c2e-a9ba-3cd0463ce532, udp: true}
+  - {name: X1-ZUR, server: hk.kfsldflk.xyz, port: 1200, type: ss, cipher: aes-256-gcm, password: 7e55412e-82bb-4c2e-a9ba-3cd0463ce532, udp: true}
+  - {name: 🇺🇸 美国 纽约01, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 7e55412e-82bb-4c2e-a9ba-3cd0463ce532, udp: true}
+  - {name: 🇯🇵 日本01, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 7e55412e-82bb-4c2e-a9ba-3cd0463ce532, udp: true}
+  - {name: 🇭🇰 香港02, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 7e55412e-82bb-4c2e-a9ba-3cd0463ce532, udp: true}
+  - {name: 🇯🇵 日本03, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 7e55412e-82bb-4c2e-a9ba-3cd0463ce532, udp: true}
+  - {name: 🇯🇵 日本04, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 7e55412e-82bb-4c2e-a9ba-3cd0463ce532, udp: true}
+  - {name: 🇭🇰 香港03, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 7e55412e-82bb-4c2e-a9ba-3cd0463ce532, udp: true}
+  - {name: 🇺🇸 美国 纽约2, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 7e55412e-82bb-4c2e-a9ba-3cd0463ce532, udp: true}
+  - {name: 🇭🇰 香港01, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 7e55412e-82bb-4c2e-a9ba-3cd0463ce532, udp: true}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
+      - 🇯🇵 日本02
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾 1
+      - X1-ZUR
+      - 🇺🇸 美国 纽约01
+      - 🇯🇵 日本01
+      - 🇭🇰 香港02
+      - 🇯🇵 日本03
+      - 🇯🇵 日本04
       - 🇭🇰 香港03
       - 🇺🇸 美国 纽约2
-      - 🇯🇵 日本02
-      - X5-URN
-      - 🇯🇵 日本01
       - 🇭🇰 香港01
-      - 🇨🇳 台湾 1
-      - 🇯🇵 日本04
-      - 🇭🇰 香港02
-      - 🇺🇸 美国 纽约01
-      - 🇯🇵 日本03
-      - 🇨🇳 台湾01
   - name: 自动选择
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵 日本02
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾 1
+      - X1-ZUR
+      - 🇺🇸 美国 纽约01
+      - 🇯🇵 日本01
+      - 🇭🇰 香港02
+      - 🇯🇵 日本03
+      - 🇯🇵 日本04
       - 🇭🇰 香港03
       - 🇺🇸 美国 纽约2
-      - 🇯🇵 日本02
-      - X5-URN
-      - 🇯🇵 日本01
       - 🇭🇰 香港01
-      - 🇨🇳 台湾 1
-      - 🇯🇵 日本04
-      - 🇭🇰 香港02
-      - 🇺🇸 美国 纽约01
-      - 🇯🇵 日本03
-      - 🇨🇳 台湾01
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -58,33 +58,33 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵 日本02
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾 1
+      - X1-ZUR
+      - 🇺🇸 美国 纽约01
+      - 🇯🇵 日本01
+      - 🇭🇰 香港02
+      - 🇯🇵 日本03
+      - 🇯🇵 日本04
       - 🇭🇰 香港03
       - 🇺🇸 美国 纽约2
-      - 🇯🇵 日本02
-      - X5-URN
-      - 🇯🇵 日本01
       - 🇭🇰 香港01
-      - 🇨🇳 台湾 1
-      - 🇯🇵 日本04
-      - 🇭🇰 香港02
-      - 🇺🇸 美国 纽约01
-      - 🇯🇵 日本03
-      - 🇨🇳 台湾01
   - name: 中国节点
     type: select
     proxies:
-      - 🇭🇰 香港03
-      - 🇭🇰 香港01
+      - 🇨🇳 台湾01
       - 🇨🇳 台湾 1
       - 🇭🇰 香港02
-      - 🇨🇳 台湾01
+      - 🇭🇰 香港03
+      - 🇭🇰 香港01
   - name: 日本节点
     type: select
     proxies:
       - 🇯🇵 日本02
       - 🇯🇵 日本01
-      - 🇯🇵 日本04
       - 🇯🇵 日本03
+      - 🇯🇵 日本04
   - name: 新加坡节点
     type: select
     proxies:
@@ -95,8 +95,8 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 美国 纽约2
       - 🇺🇸 美国 纽约01
+      - 🇺🇸 美国 纽约2
 rules:
   - DOMAIN,gy.666666222.shop,DIRECT
   - DOMAIN,gy.666666222.shop,DIRECT
