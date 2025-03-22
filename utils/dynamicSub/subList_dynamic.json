@@ -1,29 +1,5 @@
 [
-  {
-    "id": 1,
-    "remarks": "www.cfmem.com",
-    "site": "https://www.cfmem.com/search/label/free",
-    "url": "https://fs.v2rayse.com/share/20250322/th62bwskak.yaml",
-    "update_method": "page_release",
-    "enabled": true
-  },
-  {
-    "id": 2,
-    "remarks": "mibei77",
-    "site": "https://www.mibei77.com/",
-    "url": "http://mm.mibei77.com/202503/03.22Clashikm.yaml",
-    "update_method": "page_release",
-    "enabled": true
-  },
-  {
-    "id": 3,
-    "remarks": "changfengoss",
-    "site": "https://github.com/changfengoss/pub",
-    "url": "",
-    "update_method": "page_release",
-    "enabled": true
-  },
-  {
+ {
     "id": 4,
     "remarks": "YBSubCrawler",
     "site": "YBSubCrawler",
@@ -46,13 +22,6 @@
     "url": "https://raw.githubusercontent.com/qjlxg/hysteria3/refs/heads/main/valid_content_all.txt|https://raw.githubusercontent.com/qjlxg/hysteria3/refs/heads/main/valid_content.txt",
     "update_method": "page_release",
     "enabled": true
-  },
-  {
-    "id": 8,
-    "remarks": "timeUpdate",
-    "site": "new_url = datetime.today().strftime('https://wenode.githubrowcontent.com/%Y/%m/%Y%m%d.yaml')",
-    "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0322.txt|https://nodefree.githubrowcontent.com/2025/03/20250322.yaml|https://v2rayshare.githubrowcontent.com/2025/03/20250322.yaml|https://oneclash.githubrowcontent.com/2025/03/20250322.yaml|https://wenode.githubrowcontent.com/2025/03/20250322.yaml|https://www.naidounode.com/node/20250322-clash.yaml|https://free.datiya.com/uploads/20250322-clash.yaml",
-    "update_method": "change_date",
-    "enabled": true
   }
+ 
 ]
