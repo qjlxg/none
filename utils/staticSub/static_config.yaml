@@ -49,18 +49,18 @@ sources:
         - https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml
         - https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml
         - https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml
-        - https://github.com/qjlxg/hysteria3/raw/refs/heads/main/valid_content_ss1.txt
-        - https://github.com/qjlxg/hysteria3/raw/refs/heads/main/valid_content_ss2.txt
-        - https://github.com/qjlxg/hysteria3/raw/refs/heads/main/valid_content_ss.txt
-        - https://github.com/qjlxg/hysteria3/raw/refs/heads/main/valid_content_ss5.txt
-        - https://github.com/qjlxg/hysteria3/raw/refs/heads/main/valid_content_all.txt
-        - https://github.com/qjlxg/hysteria3/raw/refs/heads/main/valid_content.txt
-        - https://github.com/qjlxg/porxy/raw/refs/heads/main/2023
-        - https://github.com/qjlxg/ss/raw/refs/heads/master/list_raw.txt
-        - https://github.com/qjlxg/ss1/raw/refs/heads/master/list_raw.txt
-        - https://github.com/qjlxg/ss3/raw/refs/heads/master/list_raw.txt
-        - https://github.com/qjlxg/ss5/raw/refs/heads/master/list_raw.txt
-        - https://github.com/qjlxg/proxy-minging/raw/refs/heads/main/v2ray.txt
-        - https://github.com/qjlxg/hy2/raw/refs/heads/main/configtg.txt
-        - https://github.com/qjlxg/YBSubCrawler/raw/refs/heads/main/sub/share/available       
+        - https://raw.githubusercontent.com/qjlxg/hysteria3/main/valid_content_ss1.txt
+        - https://raw.githubusercontent.com/qjlxg/hysteria3/main/valid_content_ss2.txt
+        - https://raw.githubusercontent.com/qjlxg/hysteria3/main/valid_content_ss.txt
+        - https://raw.githubusercontent.com/qjlxg/hysteria3/main/valid_content_ss5.txt
+        - https://raw.githubusercontent.com/qjlxg/hysteria3/main/valid_content_all.txt
+        - https://raw.githubusercontent.com/qjlxg/hysteria3/main/valid_content.txt
+        - https://raw.githubusercontent.com/qjlxg/porxy/main/2023
+        - https://raw.githubusercontent.com/qjlxg/ss/master/list_raw.txt
+        - https://raw.githubusercontent.com/qjlxg/ss1/master/list_raw.txt
+        - https://raw.githubusercontent.com/qjlxg/ss3/master/list_raw.txt
+        - https://raw.githubusercontent.com/qjlxg/ss5/master/list_raw.txt
+        - https://raw.githubusercontent.com/qjlxg/proxy-minging/main/v2ray.txt
+        - https://raw.githubusercontent.com/qjlxg/hy2/main/configtg.txt
+        - https://raw.githubusercontent.com/qjlxg/YBSubCrawler/main/sub/share/available       
   output: sub/sources/staticAll.yaml
