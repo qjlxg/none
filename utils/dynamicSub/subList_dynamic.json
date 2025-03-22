@@ -31,7 +31,7 @@
     "update_method": "page_release",
     "enabled": true
   },
-   {
+  {
     "id": 4,
     "remarks": "pojiezhiyuanjun/freev2",
     "site": "https://github.com/qjlxg/porxy/",
@@ -63,7 +63,7 @@
     "update_method": "page_release",
     "enabled": true
   },
-   {
+  {
     "id": 8,
     "remarks": "ss5",
     "site": "https://raw.githubusercontent.com/qjlxg/ss5/refs/heads/master/list.yml",
