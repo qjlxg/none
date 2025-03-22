@@ -1,13 +1,5 @@
 [
-  {
-    "id": 0,
-    "remarks": "pojiezhiyuanjun/freev2",
-    "site": "https://github.com/qjlxg/porxy/",
-    "url": "https://raw.githubusercontent.com/qjlxg/sp2/refs/heads/master/Eternity.yml",
-    "update_method": "change_date",
-    "enabled": false
-  },
-  {
+ {
     "id": 1,
     "remarks": "www.cfmem.com",
     "site": "https://www.cfmem.com/search/label/free",
@@ -33,46 +25,30 @@
   },
   {
     "id": 4,
-    "remarks": "pojiezhiyuanjun/freev2",
-    "site": "https://github.com/qjlxg/porxy/",
-    "url": "https://raw.githubusercontent.com/qjlxg/YBSubCrawler/refs/heads/main/sub/share/available",
+    "remarks": "YBSubCrawler",
+    "site": "YBSubCrawler",
+    "url": "https://raw.githubusercontent.com/qjlxg/YBSubCrawler/refs/heads/main/sub/share/available|https://github.com/qjlxg/proxy-minging/raw/refs/heads/main/v2ray.txt|https://raw.githubusercontent.com/qjlxg/hy2/refs/heads/main/configtg.txt",
     "update_method": "change_date",
     "enabled": false
   },
-  {
-    "id": 5,
-    "remarks": "www.cfmem1.com",
-    "site": "https://www.cfmem.com/search/label/free",
-    "url": "https://raw.githubusercontent.com/qjlxg/ss/refs/heads/master/list.yml",
-    "update_method": "page_release",
-    "enabled": true
-  },
-  {
+ {
     "id": 6,
-    "remarks": "mibei772",
-    "site": "https://www.mibei77.com/",
-    "url": "https://raw.githubusercontent.com/qjlxg/ss1/refs/heads/master/list.yml",
+    "remarks": "ss",
+    "site": "ss",
+    "url": "https://raw.githubusercontent.com/qjlxg/ss/refs/heads/master/list.yml|https://raw.githubusercontent.com/qjlxg/ss1/refs/heads/master/list.yml|https://raw.githubusercontent.com/qjlxg/ss2/refs/heads/master/list.yml|https://raw.githubusercontent.com/qjlxg/ss5/refs/heads/master/list.yml",
     "update_method": "page_release",
     "enabled": true
   },
   {
     "id": 7,
-    "remarks": "ss2",
-    "site": "https://raw.githubusercontent.com/qjlxg/ss2/refs/heads/master/list.yml",
-    "url": "",
+    "remarks": "hysteria3",
+    "site": "hysteria3",
+    "url": "https://raw.githubusercontent.com/qjlxg/hysteria3/refs/heads/main/valid_content_all.txt|https://raw.githubusercontent.com/qjlxg/hysteria3/refs/heads/main/valid_content.txt",
     "update_method": "page_release",
     "enabled": true
   },
   {
     "id": 8,
-    "remarks": "ss5",
-    "site": "https://raw.githubusercontent.com/qjlxg/ss5/refs/heads/master/list.yml",
-    "url": "",
-    "update_method": "page_release",
-    "enabled": true
-  },
-  {
-    "id": 9,
     "remarks": "timeUpdate",
     "site": "new_url = datetime.today().strftime('https://wenode.githubrowcontent.com/%Y/%m/%Y%m%d.yaml')",
     "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0322.txt|https://nodefree.githubrowcontent.com/2025/03/20250322.yaml|https://v2rayshare.githubrowcontent.com/2025/03/20250322.yaml|https://oneclash.githubrowcontent.com/2025/03/20250322.yaml|https://wenode.githubrowcontent.com/2025/03/20250322.yaml|https://www.naidounode.com/node/20250322-clash.yaml|https://free.datiya.com/uploads/20250322-clash.yaml",
