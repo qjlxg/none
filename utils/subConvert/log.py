@@ -8,7 +8,7 @@ def log_update_time(msg,log_path = './sub/log.txt'):
 
     time = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
     filetime = '[' + time + ']: ' + msg + '\n'
-    f=open(log_path, 'w', encoding='utf-8')    # r只读，w可写，a追加
+    f=open(log_path, 'r+', encoding='utf-8')    # r只读，w可写，a追加
     updatetime = f.readlines()
     f.close()
     #查找上次更新，删除，添加新time到最后
