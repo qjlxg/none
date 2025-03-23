@@ -5,52 +5,28 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港01, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 1d409edb-6851-40d9-bb0d-4e00be8e9b62, udp: true}
-  - {name: 🇭🇰 香港02, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 1d409edb-6851-40d9-bb0d-4e00be8e9b62, udp: true}
-  - {name: 🇨🇳 台湾 1, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 1d409edb-6851-40d9-bb0d-4e00be8e9b62, udp: true}
-  - {name: 🇺🇸 美国 纽约2, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 1d409edb-6851-40d9-bb0d-4e00be8e9b62, udp: true}
-  - {name: 🇯🇵 日本01, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 1d409edb-6851-40d9-bb0d-4e00be8e9b62, udp: true}
-  - {name: XJ-ITS, server: hk.kfsldflk.xyz, port: 1200, type: ss, cipher: aes-256-gcm, password: 1d409edb-6851-40d9-bb0d-4e00be8e9b62, udp: true}
-  - {name: 🇺🇸 美国 纽约01, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 1d409edb-6851-40d9-bb0d-4e00be8e9b62, udp: true}
-  - {name: 🇯🇵 日本03, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 1d409edb-6851-40d9-bb0d-4e00be8e9b62, udp: true}
-  - {name: 🇯🇵 日本02, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 1d409edb-6851-40d9-bb0d-4e00be8e9b62, udp: true}
-  - {name: 🇨🇳 台湾01, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 1d409edb-6851-40d9-bb0d-4e00be8e9b62, udp: true}
-  - {name: 🇯🇵 日本04, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 1d409edb-6851-40d9-bb0d-4e00be8e9b62, udp: true}
-  - {name: 🇭🇰 香港03, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 1d409edb-6851-40d9-bb0d-4e00be8e9b62, udp: true}
+  - {name: 🇺🇸 美国, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 9c9753c5-1662-4eec-93a0-4f8393234284, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
+  - {name: 🇩🇪 德国法兰克福, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 9c9753c5-1662-4eec-93a0-4f8393234284, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
+  - {name: 🇸🇬 新加坡西部, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 9c9753c5-1662-4eec-93a0-4f8393234284, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
+  - {name: 🇩🇪 德国, server: visa.com, port: 443, type: vmess, uuid: 9c9753c5-1662-4eec-93a0-4f8393234284, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: go.daluquan.top}}, udp: true}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇨🇳 台湾 1
-      - 🇺🇸 美国 纽约2
-      - 🇯🇵 日本01
-      - XJ-ITS
-      - 🇺🇸 美国 纽约01
-      - 🇯🇵 日本03
-      - 🇯🇵 日本02
-      - 🇨🇳 台湾01
-      - 🇯🇵 日本04
-      - 🇭🇰 香港03
+      - 🇺🇸 美国
+      - 🇩🇪 德国法兰克福
+      - 🇸🇬 新加坡西部
+      - 🇩🇪 德国
   - name: 自动选择
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇨🇳 台湾 1
-      - 🇺🇸 美国 纽约2
-      - 🇯🇵 日本01
-      - XJ-ITS
-      - 🇺🇸 美国 纽约01
-      - 🇯🇵 日本03
-      - 🇯🇵 日本02
-      - 🇨🇳 台湾01
-      - 🇯🇵 日本04
-      - 🇭🇰 香港03
+      - 🇺🇸 美国
+      - 🇩🇪 德国法兰克福
+      - 🇸🇬 新加坡西部
+      - 🇩🇪 德国
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -58,56 +34,32 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇨🇳 台湾 1
-      - 🇺🇸 美国 纽约2
-      - 🇯🇵 日本01
-      - XJ-ITS
-      - 🇺🇸 美国 纽约01
-      - 🇯🇵 日本03
-      - 🇯🇵 日本02
-      - 🇨🇳 台湾01
-      - 🇯🇵 日本04
-      - 🇭🇰 香港03
+      - 🇺🇸 美国
+      - 🇩🇪 德国法兰克福
+      - 🇸🇬 新加坡西部
+      - 🇩🇪 德国
   - name: 中国节点
     type: select
     proxies:
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇨🇳 台湾 1
-      - 🇨🇳 台湾01
-      - 🇭🇰 香港03
+      - DIRECT
   - name: 日本节点
     type: select
     proxies:
-      - 🇯🇵 日本01
-      - 🇯🇵 日本03
-      - 🇯🇵 日本02
-      - 🇯🇵 日本04
+      - DIRECT
   - name: 新加坡节点
     type: select
     proxies:
-      - DIRECT
+      - 🇸🇬 新加坡西部
   - name: 美国节点
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 美国 纽约2
-      - 🇺🇸 美国 纽约01
+      - 🇺🇸 美国
 rules:
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,hk.kfsldflk.xyz,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
+  - DOMAIN,shhh001.oraclenat.cc,DIRECT
+  - DOMAIN,frankfurt.faforex.eu.org,DIRECT
+  - DOMAIN,westsg2-ddns.oraclenat.cc,DIRECT
+  - DOMAIN,visa.com,DIRECT
   - MATCH,手动切换
