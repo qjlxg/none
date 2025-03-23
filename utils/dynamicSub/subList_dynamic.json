@@ -1,5 +1,5 @@
 [
- {
+  {
     "id": 4,
     "remarks": "YBSubCrawler",
     "site": "YBSubCrawler",
@@ -23,5 +23,4 @@
     "update_method": "page_release",
     "enabled": true
   }
- 
 ]

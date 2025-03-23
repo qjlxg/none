@@ -3,9 +3,6 @@ sources:
   name: subs
   options:
     urls:
-    - https://fs.v2rayse.com/share/20250322/th62bwskak.yaml
-    - http://mm.mibei77.com/202503/03.22Clashikm.yaml
-    - ''
     - https://raw.githubusercontent.com/qjlxg/YBSubCrawler/refs/heads/main/sub/share/available
     - https://github.com/qjlxg/proxy-minging/raw/refs/heads/main/v2ray.txt
     - https://raw.githubusercontent.com/qjlxg/hy2/refs/heads/main/configtg.txt
@@ -15,11 +12,4 @@ sources:
     - https://raw.githubusercontent.com/qjlxg/ss5/refs/heads/master/list.yml
     - https://raw.githubusercontent.com/qjlxg/hysteria3/refs/heads/main/valid_content_all.txt
     - https://raw.githubusercontent.com/qjlxg/hysteria3/refs/heads/main/valid_content.txt
-    - https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0322.txt
-    - https://nodefree.githubrowcontent.com/2025/03/20250322.yaml
-    - https://v2rayshare.githubrowcontent.com/2025/03/20250322.yaml
-    - https://oneclash.githubrowcontent.com/2025/03/20250322.yaml
-    - https://wenode.githubrowcontent.com/2025/03/20250322.yaml
-    - https://www.naidounode.com/node/20250322-clash.yaml
-    - https://free.datiya.com/uploads/20250322-clash.yaml
   output: sub/sources/dynamicAll.yaml
