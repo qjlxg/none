@@ -5,88 +5,88 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇷🇺 俄罗斯-莫斯科-F2-001, server: 46.17.43.122, port: 22025, type: vmess, uuid: 24719c98-ec8c-41bb-8606-91383562796a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇯🇵 日本04, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: bc5c3d15-c8a4-4d91-9084-04098e55fc89, udp: true}
-  - {name: 🇭🇰 香港01, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: bc5c3d15-c8a4-4d91-9084-04098e55fc89, udp: true}
-  - {name: 🇷🇺 俄罗斯-莫斯科-F1-001, server: 176.32.35.148, port: 21025, type: vmess, uuid: 24719c98-ec8c-41bb-8606-91383562796a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇭🇰 中国-香港-F1-001, server: 212.192.13.110, port: 21025, type: vmess, uuid: 24719c98-ec8c-41bb-8606-91383562796a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇷🇺 俄罗斯-莫斯科-F3-001, server: 195.133.5.127, port: 23025, type: vmess, uuid: 24719c98-ec8c-41bb-8606-91383562796a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇭🇰 香港02, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: bc5c3d15-c8a4-4d91-9084-04098e55fc89, udp: true}
-  - {name: 🇯🇵 日本01, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: bc5c3d15-c8a4-4d91-9084-04098e55fc89, udp: true}
-  - {name: 🇨🇳 台湾 1, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: bc5c3d15-c8a4-4d91-9084-04098e55fc89, udp: true}
-  - {name: 🇺🇸 美国 纽约01, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: bc5c3d15-c8a4-4d91-9084-04098e55fc89, udp: true}
-  - {name: 🇭🇰 中国-香港-F2-001, server: 212.192.13.198, port: 22025, type: vmess, uuid: 24719c98-ec8c-41bb-8606-91383562796a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国-纽约-F3-001, server: 207.90.237.96, port: 23011, type: vmess, uuid: 24719c98-ec8c-41bb-8606-91383562796a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇨🇳 台湾01, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: bc5c3d15-c8a4-4d91-9084-04098e55fc89, udp: true}
-  - {name: 🇨🇦 加拿大-多伦多-001, server: 141.195.112.53, port: 20025, type: vmess, uuid: 24719c98-ec8c-41bb-8606-91383562796a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇭🇰 中国-香港-F3-001, server: 212.192.13.68, port: 23025, type: vmess, uuid: 24719c98-ec8c-41bb-8606-91383562796a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国-纽约-001, server: 207.90.238.136, port: 20022, type: vmess, uuid: 24719c98-ec8c-41bb-8606-91383562796a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇯🇵 日本03, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: bc5c3d15-c8a4-4d91-9084-04098e55fc89, udp: true}
-  - {name: 🇯🇵 日本02, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: bc5c3d15-c8a4-4d91-9084-04098e55fc89, udp: true}
-  - {name: 🇺🇸 美国-纽约-F1-001, server: 207.90.236.21, port: 21011, type: vmess, uuid: 24719c98-ec8c-41bb-8606-91383562796a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国-纽约-F2-001, server: 207.90.237.179, port: 22002, type: vmess, uuid: 24719c98-ec8c-41bb-8606-91383562796a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国 纽约2, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: bc5c3d15-c8a4-4d91-9084-04098e55fc89, udp: true}
-  - {name: 🇭🇰 香港03, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: bc5c3d15-c8a4-4d91-9084-04098e55fc89, udp: true}
-  - {name: X1-HJF, server: hk.kfsldflk.xyz, port: 1200, type: ss, cipher: aes-256-gcm, password: bc5c3d15-c8a4-4d91-9084-04098e55fc89, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-001, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 24719c98-ec8c-41bb-8606-91383562796a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
+  - {name: 🇨🇳 台湾01, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: f9516b82-0af5-463a-b82b-49b15055d733, udp: true}
+  - {name: 🇺🇸 美国-纽约-F2-001, server: 207.90.237.179, port: 22002, type: vmess, uuid: 4a8a7a5a-aa42-4629-8620-18654e4e257e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国-纽约-F1-001, server: 207.90.236.21, port: 21011, type: vmess, uuid: 4a8a7a5a-aa42-4629-8620-18654e4e257e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国 纽约2, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: f9516b82-0af5-463a-b82b-49b15055d733, udp: true}
+  - {name: 🇯🇵 日本02, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: f9516b82-0af5-463a-b82b-49b15055d733, udp: true}
+  - {name: 🇨🇦 加拿大-多伦多-001, server: 141.195.112.53, port: 20026, type: vmess, uuid: 4a8a7a5a-aa42-4629-8620-18654e4e257e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: XI-ASZ, server: hk.kfsldflk.xyz, port: 1200, type: ss, cipher: aes-256-gcm, password: f9516b82-0af5-463a-b82b-49b15055d733, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-001, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 4a8a7a5a-aa42-4629-8620-18654e4e257e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
+  - {name: 🇯🇵 日本01, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: f9516b82-0af5-463a-b82b-49b15055d733, udp: true}
+  - {name: 🇨🇳 台湾 1, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: f9516b82-0af5-463a-b82b-49b15055d733, udp: true}
+  - {name: 🇭🇰 中国-香港-F2-001, server: 212.192.13.198, port: 22026, type: vmess, uuid: 4a8a7a5a-aa42-4629-8620-18654e4e257e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇷🇺 俄罗斯-莫斯科-F3-001, server: 195.133.5.127, port: 23026, type: vmess, uuid: 4a8a7a5a-aa42-4629-8620-18654e4e257e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国-纽约-F3-001, server: 207.90.237.96, port: 23011, type: vmess, uuid: 4a8a7a5a-aa42-4629-8620-18654e4e257e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国-纽约-001, server: 207.90.238.136, port: 20022, type: vmess, uuid: 4a8a7a5a-aa42-4629-8620-18654e4e257e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇭🇰 香港01, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: f9516b82-0af5-463a-b82b-49b15055d733, udp: true}
+  - {name: 🇭🇰 中国-香港-F1-001, server: 212.192.13.110, port: 21026, type: vmess, uuid: 4a8a7a5a-aa42-4629-8620-18654e4e257e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇭🇰 香港03, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: f9516b82-0af5-463a-b82b-49b15055d733, udp: true}
+  - {name: 🇯🇵 日本04, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: f9516b82-0af5-463a-b82b-49b15055d733, udp: true}
+  - {name: 🇯🇵 日本03, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: f9516b82-0af5-463a-b82b-49b15055d733, udp: true}
+  - {name: 🇺🇸 美国 纽约01, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: f9516b82-0af5-463a-b82b-49b15055d733, udp: true}
+  - {name: 🇭🇰 香港02, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: f9516b82-0af5-463a-b82b-49b15055d733, udp: true}
+  - {name: 🇭🇰 中国-香港-F3-001, server: 212.192.13.68, port: 23026, type: vmess, uuid: 4a8a7a5a-aa42-4629-8620-18654e4e257e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇷🇺 俄罗斯-莫斯科-F2-001, server: 46.17.43.122, port: 22026, type: vmess, uuid: 4a8a7a5a-aa42-4629-8620-18654e4e257e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇷🇺 俄罗斯-莫斯科-F1-001, server: 176.32.35.148, port: 21026, type: vmess, uuid: 4a8a7a5a-aa42-4629-8620-18654e4e257e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
-      - 🇷🇺 俄罗斯-莫斯科-F2-001
-      - 🇯🇵 日本04
-      - 🇭🇰 香港01
-      - 🇷🇺 俄罗斯-莫斯科-F1-001
-      - 🇭🇰 中国-香港-F1-001
-      - 🇷🇺 俄罗斯-莫斯科-F3-001
-      - 🇭🇰 香港02
+      - 🇨🇳 台湾01
+      - 🇺🇸 美国-纽约-F2-001
+      - 🇺🇸 美国-纽约-F1-001
+      - 🇺🇸 美国 纽约2
+      - 🇯🇵 日本02
+      - 🇨🇦 加拿大-多伦多-001
+      - XI-ASZ
+      - 🇺🇸 美国-拉斯维加斯-001
       - 🇯🇵 日本01
       - 🇨🇳 台湾 1
-      - 🇺🇸 美国 纽约01
       - 🇭🇰 中国-香港-F2-001
+      - 🇷🇺 俄罗斯-莫斯科-F3-001
       - 🇺🇸 美国-纽约-F3-001
-      - 🇨🇳 台湾01
-      - 🇨🇦 加拿大-多伦多-001
-      - 🇭🇰 中国-香港-F3-001
       - 🇺🇸 美国-纽约-001
-      - 🇯🇵 日本03
-      - 🇯🇵 日本02
-      - 🇺🇸 美国-纽约-F1-001
-      - 🇺🇸 美国-纽约-F2-001
-      - 🇺🇸 美国 纽约2
+      - 🇭🇰 香港01
+      - 🇭🇰 中国-香港-F1-001
       - 🇭🇰 香港03
-      - X1-HJF
-      - 🇺🇸 美国-拉斯维加斯-001
+      - 🇯🇵 日本04
+      - 🇯🇵 日本03
+      - 🇺🇸 美国 纽约01
+      - 🇭🇰 香港02
+      - 🇭🇰 中国-香港-F3-001
+      - 🇷🇺 俄罗斯-莫斯科-F2-001
+      - 🇷🇺 俄罗斯-莫斯科-F1-001
   - name: 自动选择
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 50
     proxies:
-      - 🇷🇺 俄罗斯-莫斯科-F2-001
-      - 🇯🇵 日本04
-      - 🇭🇰 香港01
-      - 🇷🇺 俄罗斯-莫斯科-F1-001
-      - 🇭🇰 中国-香港-F1-001
-      - 🇷🇺 俄罗斯-莫斯科-F3-001
-      - 🇭🇰 香港02
+      - 🇨🇳 台湾01
+      - 🇺🇸 美国-纽约-F2-001
+      - 🇺🇸 美国-纽约-F1-001
+      - 🇺🇸 美国 纽约2
+      - 🇯🇵 日本02
+      - 🇨🇦 加拿大-多伦多-001
+      - XI-ASZ
+      - 🇺🇸 美国-拉斯维加斯-001
       - 🇯🇵 日本01
       - 🇨🇳 台湾 1
-      - 🇺🇸 美国 纽约01
       - 🇭🇰 中国-香港-F2-001
+      - 🇷🇺 俄罗斯-莫斯科-F3-001
       - 🇺🇸 美国-纽约-F3-001
-      - 🇨🇳 台湾01
-      - 🇨🇦 加拿大-多伦多-001
-      - 🇭🇰 中国-香港-F3-001
       - 🇺🇸 美国-纽约-001
-      - 🇯🇵 日本03
-      - 🇯🇵 日本02
-      - 🇺🇸 美国-纽约-F1-001
-      - 🇺🇸 美国-纽约-F2-001
-      - 🇺🇸 美国 纽约2
+      - 🇭🇰 香港01
+      - 🇭🇰 中国-香港-F1-001
       - 🇭🇰 香港03
-      - X1-HJF
-      - 🇺🇸 美国-拉斯维加斯-001
+      - 🇯🇵 日本04
+      - 🇯🇵 日本03
+      - 🇺🇸 美国 纽约01
+      - 🇭🇰 香港02
+      - 🇭🇰 中国-香港-F3-001
+      - 🇷🇺 俄罗斯-莫斯科-F2-001
+      - 🇷🇺 俄罗斯-莫斯科-F1-001
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -94,48 +94,48 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇷🇺 俄罗斯-莫斯科-F2-001
-      - 🇯🇵 日本04
-      - 🇭🇰 香港01
-      - 🇷🇺 俄罗斯-莫斯科-F1-001
-      - 🇭🇰 中国-香港-F1-001
-      - 🇷🇺 俄罗斯-莫斯科-F3-001
-      - 🇭🇰 香港02
+      - 🇨🇳 台湾01
+      - 🇺🇸 美国-纽约-F2-001
+      - 🇺🇸 美国-纽约-F1-001
+      - 🇺🇸 美国 纽约2
+      - 🇯🇵 日本02
+      - 🇨🇦 加拿大-多伦多-001
+      - XI-ASZ
+      - 🇺🇸 美国-拉斯维加斯-001
       - 🇯🇵 日本01
       - 🇨🇳 台湾 1
-      - 🇺🇸 美国 纽约01
       - 🇭🇰 中国-香港-F2-001
+      - 🇷🇺 俄罗斯-莫斯科-F3-001
       - 🇺🇸 美国-纽约-F3-001
-      - 🇨🇳 台湾01
-      - 🇨🇦 加拿大-多伦多-001
-      - 🇭🇰 中国-香港-F3-001
       - 🇺🇸 美国-纽约-001
-      - 🇯🇵 日本03
-      - 🇯🇵 日本02
-      - 🇺🇸 美国-纽约-F1-001
-      - 🇺🇸 美国-纽约-F2-001
-      - 🇺🇸 美国 纽约2
+      - 🇭🇰 香港01
+      - 🇭🇰 中国-香港-F1-001
       - 🇭🇰 香港03
-      - X1-HJF
-      - 🇺🇸 美国-拉斯维加斯-001
+      - 🇯🇵 日本04
+      - 🇯🇵 日本03
+      - 🇺🇸 美国 纽约01
+      - 🇭🇰 香港02
+      - 🇭🇰 中国-香港-F3-001
+      - 🇷🇺 俄罗斯-莫斯科-F2-001
+      - 🇷🇺 俄罗斯-莫斯科-F1-001
   - name: 中国节点
     type: select
     proxies:
-      - 🇭🇰 香港01
-      - 🇭🇰 中国-香港-F1-001
-      - 🇭🇰 香港02
+      - 🇨🇳 台湾01
       - 🇨🇳 台湾 1
       - 🇭🇰 中国-香港-F2-001
-      - 🇨🇳 台湾01
-      - 🇭🇰 中国-香港-F3-001
+      - 🇭🇰 香港01
+      - 🇭🇰 中国-香港-F1-001
       - 🇭🇰 香港03
+      - 🇭🇰 香港02
+      - 🇭🇰 中国-香港-F3-001
   - name: 日本节点
     type: select
     proxies:
-      - 🇯🇵 日本04
-      - 🇯🇵 日本01
-      - 🇯🇵 日本03
       - 🇯🇵 日本02
+      - 🇯🇵 日本01
+      - 🇯🇵 日本04
+      - 🇯🇵 日本03
   - name: 新加坡节点
     type: select
     proxies:
@@ -146,36 +146,36 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 美国 纽约01
-      - 🇺🇸 美国-纽约-F3-001
-      - 🇺🇸 美国-纽约-001
-      - 🇺🇸 美国-纽约-F1-001
       - 🇺🇸 美国-纽约-F2-001
+      - 🇺🇸 美国-纽约-F1-001
       - 🇺🇸 美国 纽约2
       - 🇺🇸 美国-拉斯维加斯-001
+      - 🇺🇸 美国-纽约-F3-001
+      - 🇺🇸 美国-纽约-001
+      - 🇺🇸 美国 纽约01
 rules:
-  - IP-CIDR,46.17.43.122/32,DIRECT,no-resolve
+  - DOMAIN,gy.666666222.shop,DIRECT
+  - IP-CIDR,207.90.237.179/32,DIRECT,no-resolve
+  - IP-CIDR,207.90.236.21/32,DIRECT,no-resolve
   - DOMAIN,gy.666666222.shop,DIRECT
   - DOMAIN,gy.666666222.shop,DIRECT
-  - IP-CIDR,176.32.35.148/32,DIRECT,no-resolve
-  - IP-CIDR,212.192.13.110/32,DIRECT,no-resolve
-  - IP-CIDR,195.133.5.127/32,DIRECT,no-resolve
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
+  - IP-CIDR,141.195.112.53/32,DIRECT,no-resolve
+  - DOMAIN,hk.kfsldflk.xyz,DIRECT
+  - DOMAIN,biazh.mmzhk.website,DIRECT
   - DOMAIN,gy.666666222.shop,DIRECT
   - DOMAIN,gy.666666222.shop,DIRECT
   - IP-CIDR,212.192.13.198/32,DIRECT,no-resolve
+  - IP-CIDR,195.133.5.127/32,DIRECT,no-resolve
   - IP-CIDR,207.90.237.96/32,DIRECT,no-resolve
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - IP-CIDR,141.195.112.53/32,DIRECT,no-resolve
-  - IP-CIDR,212.192.13.68/32,DIRECT,no-resolve
   - IP-CIDR,207.90.238.136/32,DIRECT,no-resolve
   - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - IP-CIDR,207.90.236.21/32,DIRECT,no-resolve
-  - IP-CIDR,207.90.237.179/32,DIRECT,no-resolve
+  - IP-CIDR,212.192.13.110/32,DIRECT,no-resolve
   - DOMAIN,gy.666666222.shop,DIRECT
   - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,hk.kfsldflk.xyz,DIRECT
-  - DOMAIN,biazh.mmzhk.website,DIRECT
+  - DOMAIN,gy.666666222.shop,DIRECT
+  - DOMAIN,gy.666666222.shop,DIRECT
+  - DOMAIN,gy.666666222.shop,DIRECT
+  - IP-CIDR,212.192.13.68/32,DIRECT,no-resolve
+  - IP-CIDR,46.17.43.122/32,DIRECT,no-resolve
+  - IP-CIDR,176.32.35.148/32,DIRECT,no-resolve
   - MATCH,手动切换
