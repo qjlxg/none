@@ -1,21 +1,21 @@
 http://xueyejiasu.com:
-  api: http://sub.kjdjakskl.cyou/api/v1/client/subscribe?token=5d71c80380de82062f989c78e1d915f8
+  api: http://sub.kjdjakskl.cyou/api/v1/client/subscribe?token=25c8980b9aa2088df7aa298a8ed4ea30
   free: 1.0GB
   name: 血液加速器
   nodes: '12'
-  time: '2025-03-25 09:48:41'
+  time: '2025-03-25 12:31:23'
   url: http://xueyejiasu.com
-  username: aruyBhzCc@foxmail.com
+  username: GPTXoYD9ql@yahoo.com
 https://ch.cukug.website:
-  api: https://ch.vfkum.website/api/v1/client/subscribe?token=bf7fd0cf1539d0b370b56626f0f0c708
+  api: https://ch.vfkum.website/api/v1/client/subscribe?token=2b996345c94b1ef967c61bdbb4aba63f
   free: 1000.0GB
   name: 漏网之鱼
   nodes: '17'
   period: month_price
   plan_id: '1'
-  time: '2025-04-24 09:48:48'
+  time: '2025-04-24 12:31:27'
   url: https://ch.cukug.website
-  username: L3SQkE6DvVRneW@live.com
+  username: 6N5sAKkJCug3@icloud.com
 https://www.kuaidog006.top:
   buy_code: '  buy  period=month_price&plan_id=12&coupon_code=haitang'
   name: 快狗云

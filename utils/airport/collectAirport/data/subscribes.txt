@@ -1,2 +1,1 @@
-http://sub.kjdjakskl.cyou/api/v1/client/subscribe?token=25c8980b9aa2088df7aa298a8ed4ea30
-https://ch.vfkum.website/api/v1/client/subscribe?token=2b996345c94b1ef967c61bdbb4aba63f
+http://sub.kjdjakskl.cyou/api/v1/client/subscribe?token=b16b63068f237fb58f08b6fd43ef3389
