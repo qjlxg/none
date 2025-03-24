@@ -1,11 +1,14 @@
+http://xueyejiasu.com:
+  api: http://sub.kjdjakskl.cyou/api/v1/client/subscribe?token=cc18636ef67b7ef37420d831015f34a1
+  free: 1.0GB
+  name: 血液加速器
+  nodes: '12'
+  time: '2025-03-24 22:15:29'
+  url: http://xueyejiasu.com
+  username: N8XaRIZBG@foxmail.com
 https://www.kuaidog006.top:
-  api: https://www.kuaidog010.top/api/v1/client/subscribe?token=8f4b3f19edab5e044a0fcf06e1ce7520
   buy_code: '  buy  period=month_price&plan_id=12&coupon_code=haitang'
-  free: 100.0GB
   name: 快狗云
-  nodes: '11'
   period: month_price
   plan_id: '12'
-  time: '2025-04-23 12:21:06'
   url: https://www.kuaidog006.top
-  username: 92aQvcM3eG@foxmail.com
