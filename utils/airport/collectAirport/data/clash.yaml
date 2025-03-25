@@ -5,238 +5,238 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇨🇳 台湾中转 05, server: chiyu2.myfczy169.top, port: 47695, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇺🇸 美国中转 01, server: chiyu.myfczy169.top, port: 13489, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇯🇵 日本03-1B, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 50f1e4ce-4f7e-4540-bf47-14edd500efa6, udp: true}
-  - {name: 🇺🇸 美国 纽约01-1A, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 511b5a36-b451-4556-8428-dff37425ee2c, udp: true}
-  - {name: 🇨🇳 台湾中转 01, server: chiyu.myfczy169.top, port: 50555, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇯🇵 日本01-1B, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 50f1e4ce-4f7e-4540-bf47-14edd500efa6, udp: true}
-  - {name: 🇺🇸 美国 纽约01-1B, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 50f1e4ce-4f7e-4540-bf47-14edd500efa6, udp: true}
-  - {name: 🇺🇸 美国 纽约2-1A, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 511b5a36-b451-4556-8428-dff37425ee2c, udp: true}
-  - {name: 🇯🇵 日本01-1A, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 511b5a36-b451-4556-8428-dff37425ee2c, udp: true}
-  - {name: 🇭🇰 香港02-1B, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 50f1e4ce-4f7e-4540-bf47-14edd500efa6, udp: true}
-  - {name: 🇯🇵 日本03-1A, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 511b5a36-b451-4556-8428-dff37425ee2c, udp: true}
-  - {name: 🇨🇳 台湾中转 02, server: chiyu.myfczy169.top, port: 25710, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇯🇵 日本04-1B, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 50f1e4ce-4f7e-4540-bf47-14edd500efa6, udp: true}
-  - {name: 🇯🇵 日本02-1A, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 511b5a36-b451-4556-8428-dff37425ee2c, udp: true}
-  - {name: 🇭🇰 香港01-1A, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 511b5a36-b451-4556-8428-dff37425ee2c, udp: true}
-  - {name: 🇹🇷 土耳其中转 01, server: chiyu.myfczy169.top, port: 21048, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇷🇺 俄罗斯-莫斯科-F2-001, server: 46.17.43.122, port: 22027, type: vmess, uuid: d4b1752b-e27c-466f-88e4-36223abb48d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: XC-HAI, server: hk.kfsldflk.xyz, port: 1200, type: ss, cipher: aes-256-gcm, password: 50f1e4ce-4f7e-4540-bf47-14edd500efa6, udp: true}
-  - {name: 🇸🇬 新加坡中转 05, server: chiyu2.myfczy169.top, port: 57141, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇬🇧 英国中转 03, server: chiyu.myfczy169.top, port: 57329, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇨🇳 台湾 1-1B, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 50f1e4ce-4f7e-4540-bf47-14edd500efa6, udp: true}
-  - {name: 🇯🇵 日本02-1B, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 50f1e4ce-4f7e-4540-bf47-14edd500efa6, udp: true}
-  - {name: 🇧🇷 巴西中转 01, server: chiyu.myfczy169.top, port: 20936, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇭🇰 中国-香港-F1-001, server: 212.192.12.56, port: 21027, type: vmess, uuid: d4b1752b-e27c-466f-88e4-36223abb48d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇯🇵 日本中转 05, server: chiyu2.myfczy169.top, port: 16542, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇸🇬 新加坡中转 01, server: chiyu.myfczy169.top, port: 26867, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: XU-NCM, server: hk.kfsldflk.xyz, port: 1200, type: ss, cipher: aes-256-gcm, password: 511b5a36-b451-4556-8428-dff37425ee2c, udp: true}
-  - {name: 🇯🇵 日本04-1A, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 511b5a36-b451-4556-8428-dff37425ee2c, udp: true}
-  - {name: 🇨🇳 台湾 1-1A, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 511b5a36-b451-4556-8428-dff37425ee2c, udp: true}
-  - {name: 🇺🇸 美国-纽约-F3-001, server: 207.90.237.96, port: 23011, type: vmess, uuid: d4b1752b-e27c-466f-88e4-36223abb48d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 下方为备用节点, server: cainiao999.top, port: 8888, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇯🇵 日本中转 02, server: chiyu.myfczy169.top, port: 25578, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇸🇪 瑞典中转 01, server: chiyu.myfczy169.top, port: 22539, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇨🇳 台湾01-1B, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 50f1e4ce-4f7e-4540-bf47-14edd500efa6, udp: true}
-  - {name: 🇸🇬 建议有事没事都更新订阅, server: cainiao999.top, port: 6666, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇨🇳 台湾中转 03, server: chiyu.myfczy169.top, port: 41512, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇲🇾 马来西亚中转 01, server: chiyu.myfczy169.top, port: 20119, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇭🇰 香港中转 04, server: chiyu2.myfczy169.top, port: 50815, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇭🇰 香港03-1A, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 511b5a36-b451-4556-8428-dff37425ee2c, udp: true}
-  - {name: 🇺🇸 美国-纽约-F1-001, server: 207.90.236.21, port: 21011, type: vmess, uuid: d4b1752b-e27c-466f-88e4-36223abb48d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-001, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: d4b1752b-e27c-466f-88e4-36223abb48d1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
-  - {name: 🇨🇳 台湾中转 04, server: chiyu2.myfczy169.top, port: 40780, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇯🇵 日本中转 03, server: chiyu.myfczy169.top, port: 49821, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 哈撒哈斯坦中转 01, server: chiyu.myfczy169.top, port: 21081, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇩🇪 德国中转 01, server: chiyu.myfczy169.top, port: 21091, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇻🇳 越南中转 01, server: chiyu.myfczy169.top, port: 21071, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇭🇰 香港中转 05, server: chiyu2.myfczy169.top, port: 19055, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇸🇬 新加坡中转 03, server: chiyu.myfczy169.top, port: 37958, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇨🇦 加拿大-多伦多-001, server: 50.114.177.96, port: 20027, type: vmess, uuid: d4b1752b-e27c-466f-88e4-36223abb48d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇭🇰 香港01-1B, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 50f1e4ce-4f7e-4540-bf47-14edd500efa6, udp: true}
-  - {name: 🇺🇸 美国-纽约-F2-001, server: 207.90.237.179, port: 22002, type: vmess, uuid: d4b1752b-e27c-466f-88e4-36223abb48d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇸🇬 新加坡中转 04, server: chiyu2.myfczy169.top, port: 47639, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇭🇰 香港中转 03, server: chiyu.myfczy169.top, port: 54804, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇯🇵 日本中转 04, server: chiyu2.myfczy169.top, port: 39886, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇺🇸 美国中转 03, server: chiyu.myfczy169.top, port: 50563, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇺🇸 美国 纽约2-1B, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 50f1e4ce-4f7e-4540-bf47-14edd500efa6, udp: true}
-  - {name: 🇭🇰 香港中转 01, server: chiyu.myfczy169.top, port: 54016, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇷🇺 俄罗斯-莫斯科-F3-001, server: 195.133.5.127, port: 23026, type: vmess, uuid: d4b1752b-e27c-466f-88e4-36223abb48d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇭🇰 中国-香港-F3-001, server: 212.192.13.68, port: 23026, type: vmess, uuid: d4b1752b-e27c-466f-88e4-36223abb48d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇭🇰 香港中转 02, server: chiyu.myfczy169.top, port: 19946, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇨🇳 台湾01-1A, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 511b5a36-b451-4556-8428-dff37425ee2c, udp: true}
-  - {name: 🇬🇧 英国中转 01, server: chiyu.myfczy169.top, port: 26480, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇦🇪 阿联酋中转 01, server: chiyu.myfczy169.top, port: 21059, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇺🇸 美国中转 02, server: chiyu.myfczy169.top, port: 19161, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇹🇭 泰国中转 01, server: chiyu.myfczy169.top, port: 20289, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇭🇰 香港03-1B, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 50f1e4ce-4f7e-4540-bf47-14edd500efa6, udp: true}
-  - {name: 🇯🇵 日本中转 01, server: chiyu.myfczy169.top, port: 41473, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇺🇸 美国-纽约-001, server: 207.90.238.136, port: 20022, type: vmess, uuid: d4b1752b-e27c-466f-88e4-36223abb48d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇷🇺 俄罗斯-莫斯科-F1-001, server: 176.32.35.148, port: 21026, type: vmess, uuid: d4b1752b-e27c-466f-88e4-36223abb48d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇭🇰 香港02-1A, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 511b5a36-b451-4556-8428-dff37425ee2c, udp: true}
-  - {name: 🇸🇬 新加坡中转 02, server: chiyu.myfczy169.top, port: 13127, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇬🇧 英国中转 02, server: chiyu.myfczy169.top, port: 19115, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇮🇳 印度中转 01, server: chiyu.myfczy169.top, port: 21061, type: ss, cipher: chacha20-ietf-poly1305, password: 0843933f-5def-410c-9468-1f75afb8db76, udp: true}
-  - {name: 🇭🇰 中国-香港-F2-001, server: 212.192.12.73, port: 22027, type: vmess, uuid: d4b1752b-e27c-466f-88e4-36223abb48d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇯🇵 日本中转 05, server: chiyu2.myfczy169.top, port: 16542, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇨🇳 台湾01-1B, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 1945ae88-5cb0-43c1-8b69-7255589fa034, udp: true}
+  - {name: 🇭🇰 中国-香港-F1-001, server: 212.192.12.56, port: 21027, type: vmess, uuid: a5b20c41-36ee-4aa4-b361-4ecf8726143e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇸🇬 新加坡中转 03, server: chiyu.myfczy169.top, port: 37958, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇺🇸 美国 纽约01-1A, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 08bb2aff-e729-4210-ae9e-a82a21295fe9, udp: true}
+  - {name: 🇮🇳 印度中转 01, server: chiyu.myfczy169.top, port: 21061, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇯🇵 日本中转 01, server: chiyu.myfczy169.top, port: 41473, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇸🇬 新加坡中转 05, server: chiyu2.myfczy169.top, port: 57141, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇭🇰 香港中转 01, server: chiyu.myfczy169.top, port: 54016, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇸🇪 瑞典中转 01, server: chiyu.myfczy169.top, port: 22539, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: XL-YLJ, server: hk.kfsldflk.xyz, port: 1200, type: ss, cipher: aes-256-gcm, password: 1945ae88-5cb0-43c1-8b69-7255589fa034, udp: true}
+  - {name: 🇷🇺 俄罗斯-莫斯科-F1-001, server: 176.32.35.148, port: 21026, type: vmess, uuid: a5b20c41-36ee-4aa4-b361-4ecf8726143e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇭🇰 香港03-1A, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 08bb2aff-e729-4210-ae9e-a82a21295fe9, udp: true}
+  - {name: 🇭🇰 香港01-1B, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 1945ae88-5cb0-43c1-8b69-7255589fa034, udp: true}
+  - {name: 🇯🇵 日本中转 02, server: chiyu.myfczy169.top, port: 25578, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇦🇪 阿联酋中转 01, server: chiyu.myfczy169.top, port: 21059, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇭🇰 中国-香港-F3-001, server: 212.192.13.68, port: 23026, type: vmess, uuid: a5b20c41-36ee-4aa4-b361-4ecf8726143e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇯🇵 日本中转 04, server: chiyu2.myfczy169.top, port: 39886, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇹🇭 泰国中转 01, server: chiyu.myfczy169.top, port: 20289, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 下方为备用节点, server: cainiao999.top, port: 8888, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇺🇸 美国中转 01, server: chiyu.myfczy169.top, port: 13489, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇭🇰 香港中转 04, server: chiyu2.myfczy169.top, port: 50815, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇺🇸 美国-纽约-F2-001, server: 207.90.237.179, port: 22002, type: vmess, uuid: a5b20c41-36ee-4aa4-b361-4ecf8726143e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇸🇬 新加坡中转 04, server: chiyu2.myfczy169.top, port: 47639, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇯🇵 日本01-1A, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 08bb2aff-e729-4210-ae9e-a82a21295fe9, udp: true}
+  - {name: 🇬🇧 英国中转 01, server: chiyu.myfczy169.top, port: 26480, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇺🇸 美国-纽约-F3-001, server: 207.90.237.96, port: 23011, type: vmess, uuid: a5b20c41-36ee-4aa4-b361-4ecf8726143e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇭🇰 中国-香港-F2-001, server: 212.192.12.73, port: 22027, type: vmess, uuid: a5b20c41-36ee-4aa4-b361-4ecf8726143e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇸🇬 新加坡中转 01, server: chiyu.myfczy169.top, port: 26867, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇺🇸 美国-纽约-F1-001, server: 207.90.236.21, port: 21011, type: vmess, uuid: a5b20c41-36ee-4aa4-b361-4ecf8726143e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇨🇳 台湾中转 03, server: chiyu.myfczy169.top, port: 41512, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇯🇵 日本01-1B, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 1945ae88-5cb0-43c1-8b69-7255589fa034, udp: true}
+  - {name: 🇯🇵 日本02-1B, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 1945ae88-5cb0-43c1-8b69-7255589fa034, udp: true}
+  - {name: 🇨🇳 台湾中转 02, server: chiyu.myfczy169.top, port: 25710, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-001, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: a5b20c41-36ee-4aa4-b361-4ecf8726143e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
+  - {name: 🇬🇧 英国中转 02, server: chiyu.myfczy169.top, port: 19115, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇺🇸 美国中转 03, server: chiyu.myfczy169.top, port: 50563, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇨🇦 加拿大-多伦多-001, server: 50.114.177.96, port: 20027, type: vmess, uuid: a5b20c41-36ee-4aa4-b361-4ecf8726143e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇭🇰 香港01-1A, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 08bb2aff-e729-4210-ae9e-a82a21295fe9, udp: true}
+  - {name: 🇺🇸 美国-纽约-001, server: 207.90.238.136, port: 20022, type: vmess, uuid: a5b20c41-36ee-4aa4-b361-4ecf8726143e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇲🇾 马来西亚中转 01, server: chiyu.myfczy169.top, port: 20119, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇯🇵 日本04-1B, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 1945ae88-5cb0-43c1-8b69-7255589fa034, udp: true}
+  - {name: 🇭🇰 香港中转 05, server: chiyu2.myfczy169.top, port: 19055, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇭🇰 香港02-1B, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 1945ae88-5cb0-43c1-8b69-7255589fa034, udp: true}
+  - {name: 哈撒哈斯坦中转 01, server: chiyu.myfczy169.top, port: 21081, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇷🇺 俄罗斯-莫斯科-F3-001, server: 195.133.5.127, port: 23026, type: vmess, uuid: a5b20c41-36ee-4aa4-b361-4ecf8726143e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇯🇵 日本03-1B, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 1945ae88-5cb0-43c1-8b69-7255589fa034, udp: true}
+  - {name: 🇸🇬 建议有事没事都更新订阅, server: cainiao999.top, port: 6666, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇷🇺 俄罗斯-莫斯科-F2-001, server: 46.17.43.122, port: 22027, type: vmess, uuid: a5b20c41-36ee-4aa4-b361-4ecf8726143e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇹🇷 土耳其中转 01, server: chiyu.myfczy169.top, port: 21048, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇺🇸 美国 纽约2-1B, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 1945ae88-5cb0-43c1-8b69-7255589fa034, udp: true}
+  - {name: 🇨🇳 台湾 1-1B, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 1945ae88-5cb0-43c1-8b69-7255589fa034, udp: true}
+  - {name: 🇯🇵 日本04-1A, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 08bb2aff-e729-4210-ae9e-a82a21295fe9, udp: true}
+  - {name: 🇯🇵 日本中转 03, server: chiyu.myfczy169.top, port: 49821, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇭🇰 香港中转 03, server: chiyu.myfczy169.top, port: 54804, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇭🇰 香港02-1A, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 08bb2aff-e729-4210-ae9e-a82a21295fe9, udp: true}
+  - {name: XZ-SEZ, server: hk.kfsldflk.xyz, port: 1200, type: ss, cipher: aes-256-gcm, password: 08bb2aff-e729-4210-ae9e-a82a21295fe9, udp: true}
+  - {name: 🇨🇳 台湾中转 04, server: chiyu2.myfczy169.top, port: 40780, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇭🇰 香港03-1B, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 1945ae88-5cb0-43c1-8b69-7255589fa034, udp: true}
+  - {name: 🇯🇵 日本03-1A, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 08bb2aff-e729-4210-ae9e-a82a21295fe9, udp: true}
+  - {name: 🇩🇪 德国中转 01, server: chiyu.myfczy169.top, port: 21091, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇺🇸 美国中转 02, server: chiyu.myfczy169.top, port: 19161, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇭🇰 香港中转 02, server: chiyu.myfczy169.top, port: 19946, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇨🇳 台湾中转 01, server: chiyu.myfczy169.top, port: 50555, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇨🇳 台湾 1-1A, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 08bb2aff-e729-4210-ae9e-a82a21295fe9, udp: true}
+  - {name: 🇬🇧 英国中转 03, server: chiyu.myfczy169.top, port: 57329, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇧🇷 巴西中转 01, server: chiyu.myfczy169.top, port: 20936, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇸🇬 新加坡中转 02, server: chiyu.myfczy169.top, port: 13127, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇻🇳 越南中转 01, server: chiyu.myfczy169.top, port: 21071, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇺🇸 美国 纽约01-1B, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 1945ae88-5cb0-43c1-8b69-7255589fa034, udp: true}
+  - {name: 🇨🇳 台湾中转 05, server: chiyu2.myfczy169.top, port: 47695, type: ss, cipher: chacha20-ietf-poly1305, password: 85115be9-56bb-446c-aa87-3147375cd6c9, udp: true}
+  - {name: 🇯🇵 日本02-1A, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 08bb2aff-e729-4210-ae9e-a82a21295fe9, udp: true}
+  - {name: 🇨🇳 台湾01-1A, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 08bb2aff-e729-4210-ae9e-a82a21295fe9, udp: true}
+  - {name: 🇺🇸 美国 纽约2-1A, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 08bb2aff-e729-4210-ae9e-a82a21295fe9, udp: true}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
-      - 🇨🇳 台湾中转 05
-      - 🇺🇸 美国中转 01
-      - 🇯🇵 日本03-1B
-      - 🇺🇸 美国 纽约01-1A
-      - 🇨🇳 台湾中转 01
-      - 🇯🇵 日本01-1B
-      - 🇺🇸 美国 纽约01-1B
-      - 🇺🇸 美国 纽约2-1A
-      - 🇯🇵 日本01-1A
-      - 🇭🇰 香港02-1B
-      - 🇯🇵 日本03-1A
-      - 🇨🇳 台湾中转 02
-      - 🇯🇵 日本04-1B
-      - 🇯🇵 日本02-1A
-      - 🇭🇰 香港01-1A
-      - 🇹🇷 土耳其中转 01
-      - 🇷🇺 俄罗斯-莫斯科-F2-001
-      - XC-HAI
-      - 🇸🇬 新加坡中转 05
-      - 🇬🇧 英国中转 03
-      - 🇨🇳 台湾 1-1B
-      - 🇯🇵 日本02-1B
-      - 🇧🇷 巴西中转 01
-      - 🇭🇰 中国-香港-F1-001
       - 🇯🇵 日本中转 05
-      - 🇸🇬 新加坡中转 01
-      - XU-NCM
-      - 🇯🇵 日本04-1A
-      - 🇨🇳 台湾 1-1A
-      - 🇺🇸 美国-纽约-F3-001
-      - 下方为备用节点
-      - 🇯🇵 日本中转 02
-      - 🇸🇪 瑞典中转 01
       - 🇨🇳 台湾01-1B
-      - 🇸🇬 建议有事没事都更新订阅
-      - 🇨🇳 台湾中转 03
-      - 🇲🇾 马来西亚中转 01
-      - 🇭🇰 香港中转 04
-      - 🇭🇰 香港03-1A
-      - 🇺🇸 美国-纽约-F1-001
-      - 🇺🇸 美国-拉斯维加斯-001
-      - 🇨🇳 台湾中转 04
-      - 🇯🇵 日本中转 03
-      - 哈撒哈斯坦中转 01
-      - 🇩🇪 德国中转 01
-      - 🇻🇳 越南中转 01
-      - 🇭🇰 香港中转 05
+      - 🇭🇰 中国-香港-F1-001
       - 🇸🇬 新加坡中转 03
-      - 🇨🇦 加拿大-多伦多-001
+      - 🇺🇸 美国 纽约01-1A
+      - 🇮🇳 印度中转 01
+      - 🇯🇵 日本中转 01
+      - 🇸🇬 新加坡中转 05
+      - 🇭🇰 香港中转 01
+      - 🇸🇪 瑞典中转 01
+      - XL-YLJ
+      - 🇷🇺 俄罗斯-莫斯科-F1-001
+      - 🇭🇰 香港03-1A
       - 🇭🇰 香港01-1B
+      - 🇯🇵 日本中转 02
+      - 🇦🇪 阿联酋中转 01
+      - 🇭🇰 中国-香港-F3-001
+      - 🇯🇵 日本中转 04
+      - 🇹🇭 泰国中转 01
+      - 下方为备用节点
+      - 🇺🇸 美国中转 01
+      - 🇭🇰 香港中转 04
       - 🇺🇸 美国-纽约-F2-001
       - 🇸🇬 新加坡中转 04
-      - 🇭🇰 香港中转 03
-      - 🇯🇵 日本中转 04
-      - 🇺🇸 美国中转 03
-      - 🇺🇸 美国 纽约2-1B
-      - 🇭🇰 香港中转 01
-      - 🇷🇺 俄罗斯-莫斯科-F3-001
-      - 🇭🇰 中国-香港-F3-001
-      - 🇭🇰 香港中转 02
-      - 🇨🇳 台湾01-1A
+      - 🇯🇵 日本01-1A
       - 🇬🇧 英国中转 01
-      - 🇦🇪 阿联酋中转 01
-      - 🇺🇸 美国中转 02
-      - 🇹🇭 泰国中转 01
-      - 🇭🇰 香港03-1B
-      - 🇯🇵 日本中转 01
-      - 🇺🇸 美国-纽约-001
-      - 🇷🇺 俄罗斯-莫斯科-F1-001
-      - 🇭🇰 香港02-1A
-      - 🇸🇬 新加坡中转 02
-      - 🇬🇧 英国中转 02
-      - 🇮🇳 印度中转 01
+      - 🇺🇸 美国-纽约-F3-001
       - 🇭🇰 中国-香港-F2-001
+      - 🇸🇬 新加坡中转 01
+      - 🇺🇸 美国-纽约-F1-001
+      - 🇨🇳 台湾中转 03
+      - 🇯🇵 日本01-1B
+      - 🇯🇵 日本02-1B
+      - 🇨🇳 台湾中转 02
+      - 🇺🇸 美国-拉斯维加斯-001
+      - 🇬🇧 英国中转 02
+      - 🇺🇸 美国中转 03
+      - 🇨🇦 加拿大-多伦多-001
+      - 🇭🇰 香港01-1A
+      - 🇺🇸 美国-纽约-001
+      - 🇲🇾 马来西亚中转 01
+      - 🇯🇵 日本04-1B
+      - 🇭🇰 香港中转 05
+      - 🇭🇰 香港02-1B
+      - 哈撒哈斯坦中转 01
+      - 🇷🇺 俄罗斯-莫斯科-F3-001
+      - 🇯🇵 日本03-1B
+      - 🇸🇬 建议有事没事都更新订阅
+      - 🇷🇺 俄罗斯-莫斯科-F2-001
+      - 🇹🇷 土耳其中转 01
+      - 🇺🇸 美国 纽约2-1B
+      - 🇨🇳 台湾 1-1B
+      - 🇯🇵 日本04-1A
+      - 🇯🇵 日本中转 03
+      - 🇭🇰 香港中转 03
+      - 🇭🇰 香港02-1A
+      - XZ-SEZ
+      - 🇨🇳 台湾中转 04
+      - 🇭🇰 香港03-1B
+      - 🇯🇵 日本03-1A
+      - 🇩🇪 德国中转 01
+      - 🇺🇸 美国中转 02
+      - 🇭🇰 香港中转 02
+      - 🇨🇳 台湾中转 01
+      - 🇨🇳 台湾 1-1A
+      - 🇬🇧 英国中转 03
+      - 🇧🇷 巴西中转 01
+      - 🇸🇬 新加坡中转 02
+      - 🇻🇳 越南中转 01
+      - 🇺🇸 美国 纽约01-1B
+      - 🇨🇳 台湾中转 05
+      - 🇯🇵 日本02-1A
+      - 🇨🇳 台湾01-1A
+      - 🇺🇸 美国 纽约2-1A
   - name: 自动选择
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 台湾中转 05
-      - 🇺🇸 美国中转 01
-      - 🇯🇵 日本03-1B
-      - 🇺🇸 美国 纽约01-1A
-      - 🇨🇳 台湾中转 01
-      - 🇯🇵 日本01-1B
-      - 🇺🇸 美国 纽约01-1B
-      - 🇺🇸 美国 纽约2-1A
-      - 🇯🇵 日本01-1A
-      - 🇭🇰 香港02-1B
-      - 🇯🇵 日本03-1A
-      - 🇨🇳 台湾中转 02
-      - 🇯🇵 日本04-1B
-      - 🇯🇵 日本02-1A
-      - 🇭🇰 香港01-1A
-      - 🇹🇷 土耳其中转 01
-      - 🇷🇺 俄罗斯-莫斯科-F2-001
-      - XC-HAI
-      - 🇸🇬 新加坡中转 05
-      - 🇬🇧 英国中转 03
-      - 🇨🇳 台湾 1-1B
-      - 🇯🇵 日本02-1B
-      - 🇧🇷 巴西中转 01
-      - 🇭🇰 中国-香港-F1-001
       - 🇯🇵 日本中转 05
-      - 🇸🇬 新加坡中转 01
-      - XU-NCM
-      - 🇯🇵 日本04-1A
-      - 🇨🇳 台湾 1-1A
-      - 🇺🇸 美国-纽约-F3-001
-      - 下方为备用节点
-      - 🇯🇵 日本中转 02
-      - 🇸🇪 瑞典中转 01
       - 🇨🇳 台湾01-1B
-      - 🇸🇬 建议有事没事都更新订阅
-      - 🇨🇳 台湾中转 03
-      - 🇲🇾 马来西亚中转 01
-      - 🇭🇰 香港中转 04
-      - 🇭🇰 香港03-1A
-      - 🇺🇸 美国-纽约-F1-001
-      - 🇺🇸 美国-拉斯维加斯-001
-      - 🇨🇳 台湾中转 04
-      - 🇯🇵 日本中转 03
-      - 哈撒哈斯坦中转 01
-      - 🇩🇪 德国中转 01
-      - 🇻🇳 越南中转 01
-      - 🇭🇰 香港中转 05
+      - 🇭🇰 中国-香港-F1-001
       - 🇸🇬 新加坡中转 03
-      - 🇨🇦 加拿大-多伦多-001
+      - 🇺🇸 美国 纽约01-1A
+      - 🇮🇳 印度中转 01
+      - 🇯🇵 日本中转 01
+      - 🇸🇬 新加坡中转 05
+      - 🇭🇰 香港中转 01
+      - 🇸🇪 瑞典中转 01
+      - XL-YLJ
+      - 🇷🇺 俄罗斯-莫斯科-F1-001
+      - 🇭🇰 香港03-1A
       - 🇭🇰 香港01-1B
+      - 🇯🇵 日本中转 02
+      - 🇦🇪 阿联酋中转 01
+      - 🇭🇰 中国-香港-F3-001
+      - 🇯🇵 日本中转 04
+      - 🇹🇭 泰国中转 01
+      - 下方为备用节点
+      - 🇺🇸 美国中转 01
+      - 🇭🇰 香港中转 04
       - 🇺🇸 美国-纽约-F2-001
       - 🇸🇬 新加坡中转 04
-      - 🇭🇰 香港中转 03
-      - 🇯🇵 日本中转 04
-      - 🇺🇸 美国中转 03
-      - 🇺🇸 美国 纽约2-1B
-      - 🇭🇰 香港中转 01
-      - 🇷🇺 俄罗斯-莫斯科-F3-001
-      - 🇭🇰 中国-香港-F3-001
-      - 🇭🇰 香港中转 02
-      - 🇨🇳 台湾01-1A
+      - 🇯🇵 日本01-1A
       - 🇬🇧 英国中转 01
-      - 🇦🇪 阿联酋中转 01
-      - 🇺🇸 美国中转 02
-      - 🇹🇭 泰国中转 01
-      - 🇭🇰 香港03-1B
-      - 🇯🇵 日本中转 01
-      - 🇺🇸 美国-纽约-001
-      - 🇷🇺 俄罗斯-莫斯科-F1-001
-      - 🇭🇰 香港02-1A
-      - 🇸🇬 新加坡中转 02
-      - 🇬🇧 英国中转 02
-      - 🇮🇳 印度中转 01
+      - 🇺🇸 美国-纽约-F3-001
       - 🇭🇰 中国-香港-F2-001
+      - 🇸🇬 新加坡中转 01
+      - 🇺🇸 美国-纽约-F1-001
+      - 🇨🇳 台湾中转 03
+      - 🇯🇵 日本01-1B
+      - 🇯🇵 日本02-1B
+      - 🇨🇳 台湾中转 02
+      - 🇺🇸 美国-拉斯维加斯-001
+      - 🇬🇧 英国中转 02
+      - 🇺🇸 美国中转 03
+      - 🇨🇦 加拿大-多伦多-001
+      - 🇭🇰 香港01-1A
+      - 🇺🇸 美国-纽约-001
+      - 🇲🇾 马来西亚中转 01
+      - 🇯🇵 日本04-1B
+      - 🇭🇰 香港中转 05
+      - 🇭🇰 香港02-1B
+      - 哈撒哈斯坦中转 01
+      - 🇷🇺 俄罗斯-莫斯科-F3-001
+      - 🇯🇵 日本03-1B
+      - 🇸🇬 建议有事没事都更新订阅
+      - 🇷🇺 俄罗斯-莫斯科-F2-001
+      - 🇹🇷 土耳其中转 01
+      - 🇺🇸 美国 纽约2-1B
+      - 🇨🇳 台湾 1-1B
+      - 🇯🇵 日本04-1A
+      - 🇯🇵 日本中转 03
+      - 🇭🇰 香港中转 03
+      - 🇭🇰 香港02-1A
+      - XZ-SEZ
+      - 🇨🇳 台湾中转 04
+      - 🇭🇰 香港03-1B
+      - 🇯🇵 日本03-1A
+      - 🇩🇪 德国中转 01
+      - 🇺🇸 美国中转 02
+      - 🇭🇰 香港中转 02
+      - 🇨🇳 台湾中转 01
+      - 🇨🇳 台湾 1-1A
+      - 🇬🇧 英国中转 03
+      - 🇧🇷 巴西中转 01
+      - 🇸🇬 新加坡中转 02
+      - 🇻🇳 越南中转 01
+      - 🇺🇸 美国 纽约01-1B
+      - 🇨🇳 台湾中转 05
+      - 🇯🇵 日本02-1A
+      - 🇨🇳 台湾01-1A
+      - 🇺🇸 美国 纽约2-1A
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -244,129 +244,129 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 台湾中转 05
-      - 🇺🇸 美国中转 01
-      - 🇯🇵 日本03-1B
-      - 🇺🇸 美国 纽约01-1A
-      - 🇨🇳 台湾中转 01
-      - 🇯🇵 日本01-1B
-      - 🇺🇸 美国 纽约01-1B
-      - 🇺🇸 美国 纽约2-1A
-      - 🇯🇵 日本01-1A
-      - 🇭🇰 香港02-1B
-      - 🇯🇵 日本03-1A
-      - 🇨🇳 台湾中转 02
-      - 🇯🇵 日本04-1B
-      - 🇯🇵 日本02-1A
-      - 🇭🇰 香港01-1A
-      - 🇹🇷 土耳其中转 01
-      - 🇷🇺 俄罗斯-莫斯科-F2-001
-      - XC-HAI
-      - 🇸🇬 新加坡中转 05
-      - 🇬🇧 英国中转 03
-      - 🇨🇳 台湾 1-1B
-      - 🇯🇵 日本02-1B
-      - 🇧🇷 巴西中转 01
-      - 🇭🇰 中国-香港-F1-001
       - 🇯🇵 日本中转 05
-      - 🇸🇬 新加坡中转 01
-      - XU-NCM
-      - 🇯🇵 日本04-1A
-      - 🇨🇳 台湾 1-1A
-      - 🇺🇸 美国-纽约-F3-001
-      - 下方为备用节点
-      - 🇯🇵 日本中转 02
-      - 🇸🇪 瑞典中转 01
       - 🇨🇳 台湾01-1B
-      - 🇸🇬 建议有事没事都更新订阅
-      - 🇨🇳 台湾中转 03
-      - 🇲🇾 马来西亚中转 01
-      - 🇭🇰 香港中转 04
-      - 🇭🇰 香港03-1A
-      - 🇺🇸 美国-纽约-F1-001
-      - 🇺🇸 美国-拉斯维加斯-001
-      - 🇨🇳 台湾中转 04
-      - 🇯🇵 日本中转 03
-      - 哈撒哈斯坦中转 01
-      - 🇩🇪 德国中转 01
-      - 🇻🇳 越南中转 01
-      - 🇭🇰 香港中转 05
+      - 🇭🇰 中国-香港-F1-001
       - 🇸🇬 新加坡中转 03
-      - 🇨🇦 加拿大-多伦多-001
+      - 🇺🇸 美国 纽约01-1A
+      - 🇮🇳 印度中转 01
+      - 🇯🇵 日本中转 01
+      - 🇸🇬 新加坡中转 05
+      - 🇭🇰 香港中转 01
+      - 🇸🇪 瑞典中转 01
+      - XL-YLJ
+      - 🇷🇺 俄罗斯-莫斯科-F1-001
+      - 🇭🇰 香港03-1A
       - 🇭🇰 香港01-1B
+      - 🇯🇵 日本中转 02
+      - 🇦🇪 阿联酋中转 01
+      - 🇭🇰 中国-香港-F3-001
+      - 🇯🇵 日本中转 04
+      - 🇹🇭 泰国中转 01
+      - 下方为备用节点
+      - 🇺🇸 美国中转 01
+      - 🇭🇰 香港中转 04
       - 🇺🇸 美国-纽约-F2-001
       - 🇸🇬 新加坡中转 04
-      - 🇭🇰 香港中转 03
-      - 🇯🇵 日本中转 04
-      - 🇺🇸 美国中转 03
-      - 🇺🇸 美国 纽约2-1B
-      - 🇭🇰 香港中转 01
-      - 🇷🇺 俄罗斯-莫斯科-F3-001
-      - 🇭🇰 中国-香港-F3-001
-      - 🇭🇰 香港中转 02
-      - 🇨🇳 台湾01-1A
+      - 🇯🇵 日本01-1A
       - 🇬🇧 英国中转 01
-      - 🇦🇪 阿联酋中转 01
-      - 🇺🇸 美国中转 02
-      - 🇹🇭 泰国中转 01
-      - 🇭🇰 香港03-1B
-      - 🇯🇵 日本中转 01
-      - 🇺🇸 美国-纽约-001
-      - 🇷🇺 俄罗斯-莫斯科-F1-001
-      - 🇭🇰 香港02-1A
-      - 🇸🇬 新加坡中转 02
-      - 🇬🇧 英国中转 02
-      - 🇮🇳 印度中转 01
+      - 🇺🇸 美国-纽约-F3-001
       - 🇭🇰 中国-香港-F2-001
+      - 🇸🇬 新加坡中转 01
+      - 🇺🇸 美国-纽约-F1-001
+      - 🇨🇳 台湾中转 03
+      - 🇯🇵 日本01-1B
+      - 🇯🇵 日本02-1B
+      - 🇨🇳 台湾中转 02
+      - 🇺🇸 美国-拉斯维加斯-001
+      - 🇬🇧 英国中转 02
+      - 🇺🇸 美国中转 03
+      - 🇨🇦 加拿大-多伦多-001
+      - 🇭🇰 香港01-1A
+      - 🇺🇸 美国-纽约-001
+      - 🇲🇾 马来西亚中转 01
+      - 🇯🇵 日本04-1B
+      - 🇭🇰 香港中转 05
+      - 🇭🇰 香港02-1B
+      - 哈撒哈斯坦中转 01
+      - 🇷🇺 俄罗斯-莫斯科-F3-001
+      - 🇯🇵 日本03-1B
+      - 🇸🇬 建议有事没事都更新订阅
+      - 🇷🇺 俄罗斯-莫斯科-F2-001
+      - 🇹🇷 土耳其中转 01
+      - 🇺🇸 美国 纽约2-1B
+      - 🇨🇳 台湾 1-1B
+      - 🇯🇵 日本04-1A
+      - 🇯🇵 日本中转 03
+      - 🇭🇰 香港中转 03
+      - 🇭🇰 香港02-1A
+      - XZ-SEZ
+      - 🇨🇳 台湾中转 04
+      - 🇭🇰 香港03-1B
+      - 🇯🇵 日本03-1A
+      - 🇩🇪 德国中转 01
+      - 🇺🇸 美国中转 02
+      - 🇭🇰 香港中转 02
+      - 🇨🇳 台湾中转 01
+      - 🇨🇳 台湾 1-1A
+      - 🇬🇧 英国中转 03
+      - 🇧🇷 巴西中转 01
+      - 🇸🇬 新加坡中转 02
+      - 🇻🇳 越南中转 01
+      - 🇺🇸 美国 纽约01-1B
+      - 🇨🇳 台湾中转 05
+      - 🇯🇵 日本02-1A
+      - 🇨🇳 台湾01-1A
+      - 🇺🇸 美国 纽约2-1A
   - name: 中国节点
     type: select
     proxies:
-      - 🇨🇳 台湾中转 05
-      - 🇨🇳 台湾中转 01
-      - 🇭🇰 香港02-1B
+      - 🇨🇳 台湾01-1B
+      - 🇭🇰 中国-香港-F1-001
+      - 🇭🇰 香港中转 01
+      - 🇭🇰 香港03-1A
+      - 🇭🇰 香港01-1B
+      - 🇭🇰 中国-香港-F3-001
+      - 🇭🇰 香港中转 04
+      - 🇭🇰 中国-香港-F2-001
+      - 🇨🇳 台湾中转 03
       - 🇨🇳 台湾中转 02
       - 🇭🇰 香港01-1A
-      - 🇨🇳 台湾 1-1B
-      - 🇭🇰 中国-香港-F1-001
-      - 🇨🇳 台湾 1-1A
-      - 🇨🇳 台湾01-1B
-      - 🇨🇳 台湾中转 03
-      - 🇭🇰 香港中转 04
-      - 🇭🇰 香港03-1A
-      - 🇨🇳 台湾中转 04
       - 🇭🇰 香港中转 05
-      - 🇭🇰 香港01-1B
+      - 🇭🇰 香港02-1B
+      - 🇨🇳 台湾 1-1B
       - 🇭🇰 香港中转 03
-      - 🇭🇰 香港中转 01
-      - 🇭🇰 中国-香港-F3-001
-      - 🇭🇰 香港中转 02
-      - 🇨🇳 台湾01-1A
-      - 🇭🇰 香港03-1B
       - 🇭🇰 香港02-1A
-      - 🇭🇰 中国-香港-F2-001
+      - 🇨🇳 台湾中转 04
+      - 🇭🇰 香港03-1B
+      - 🇭🇰 香港中转 02
+      - 🇨🇳 台湾中转 01
+      - 🇨🇳 台湾 1-1A
+      - 🇨🇳 台湾中转 05
+      - 🇨🇳 台湾01-1A
   - name: 日本节点
     type: select
     proxies:
-      - 🇯🇵 日本03-1B
-      - 🇯🇵 日本01-1B
-      - 🇯🇵 日本01-1A
-      - 🇯🇵 日本03-1A
-      - 🇯🇵 日本04-1B
-      - 🇯🇵 日本02-1A
-      - 🇯🇵 日本02-1B
       - 🇯🇵 日本中转 05
-      - 🇯🇵 日本04-1A
-      - 🇯🇵 日本中转 02
-      - 🇯🇵 日本中转 03
-      - 🇯🇵 日本中转 04
       - 🇯🇵 日本中转 01
+      - 🇯🇵 日本中转 02
+      - 🇯🇵 日本中转 04
+      - 🇯🇵 日本01-1A
+      - 🇯🇵 日本01-1B
+      - 🇯🇵 日本02-1B
+      - 🇯🇵 日本04-1B
+      - 🇯🇵 日本03-1B
+      - 🇯🇵 日本04-1A
+      - 🇯🇵 日本中转 03
+      - 🇯🇵 日本03-1A
+      - 🇯🇵 日本02-1A
   - name: 新加坡节点
     type: select
     proxies:
-      - 🇸🇬 新加坡中转 05
-      - 🇸🇬 新加坡中转 01
       - 🇸🇬 新加坡中转 03
+      - 🇸🇬 新加坡中转 05
       - 🇸🇬 新加坡中转 04
+      - 🇸🇬 新加坡中转 01
       - 🇸🇬 新加坡中转 02
   - name: 美国节点
     type: url-test
@@ -374,79 +374,78 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 美国中转 01
       - 🇺🇸 美国 纽约01-1A
-      - 🇺🇸 美国 纽约01-1B
-      - 🇺🇸 美国 纽约2-1A
+      - 🇺🇸 美国中转 01
+      - 🇺🇸 美国-纽约-F2-001
       - 🇺🇸 美国-纽约-F3-001
       - 🇺🇸 美国-纽约-F1-001
       - 🇺🇸 美国-拉斯维加斯-001
-      - 🇺🇸 美国-纽约-F2-001
       - 🇺🇸 美国中转 03
+      - 🇺🇸 美国-纽约-001
       - 🇺🇸 美国 纽约2-1B
       - 🇺🇸 美国中转 02
-      - 🇺🇸 美国-纽约-001
+      - 🇺🇸 美国 纽约01-1B
+      - 🇺🇸 美国 纽约2-1A
 rules:
   - DOMAIN,chiyu2.myfczy169.top,DIRECT
-  - DOMAIN,chiyu.myfczy169.top,DIRECT
   - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,chiyu.myfczy169.top,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,chiyu.myfczy169.top,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,chiyu.myfczy169.top,DIRECT
-  - IP-CIDR,46.17.43.122/32,DIRECT,no-resolve
-  - DOMAIN,hk.kfsldflk.xyz,DIRECT
-  - DOMAIN,chiyu2.myfczy169.top,DIRECT
-  - DOMAIN,chiyu.myfczy169.top,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,chiyu.myfczy169.top,DIRECT
   - IP-CIDR,212.192.12.56/32,DIRECT,no-resolve
+  - DOMAIN,chiyu.myfczy169.top,DIRECT
+  - DOMAIN,gy.666666222.shop,DIRECT
+  - DOMAIN,chiyu.myfczy169.top,DIRECT
+  - DOMAIN,chiyu.myfczy169.top,DIRECT
   - DOMAIN,chiyu2.myfczy169.top,DIRECT
+  - DOMAIN,chiyu.myfczy169.top,DIRECT
   - DOMAIN,chiyu.myfczy169.top,DIRECT
   - DOMAIN,hk.kfsldflk.xyz,DIRECT
+  - IP-CIDR,176.32.35.148/32,DIRECT,no-resolve
   - DOMAIN,gy.666666222.shop,DIRECT
   - DOMAIN,gy.666666222.shop,DIRECT
+  - DOMAIN,chiyu.myfczy169.top,DIRECT
+  - DOMAIN,chiyu.myfczy169.top,DIRECT
+  - IP-CIDR,212.192.13.68/32,DIRECT,no-resolve
+  - DOMAIN,chiyu2.myfczy169.top,DIRECT
+  - DOMAIN,chiyu.myfczy169.top,DIRECT
+  - DOMAIN,cainiao999.top,DIRECT
+  - DOMAIN,chiyu.myfczy169.top,DIRECT
+  - DOMAIN,chiyu2.myfczy169.top,DIRECT
+  - IP-CIDR,207.90.237.179/32,DIRECT,no-resolve
+  - DOMAIN,chiyu2.myfczy169.top,DIRECT
+  - DOMAIN,gy.666666222.shop,DIRECT
+  - DOMAIN,chiyu.myfczy169.top,DIRECT
   - IP-CIDR,207.90.237.96/32,DIRECT,no-resolve
-  - DOMAIN,cainiao999.top,DIRECT
+  - IP-CIDR,212.192.12.73/32,DIRECT,no-resolve
   - DOMAIN,chiyu.myfczy169.top,DIRECT
-  - DOMAIN,chiyu.myfczy169.top,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,cainiao999.top,DIRECT
-  - DOMAIN,chiyu.myfczy169.top,DIRECT
-  - DOMAIN,chiyu.myfczy169.top,DIRECT
-  - DOMAIN,chiyu2.myfczy169.top,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
   - IP-CIDR,207.90.236.21/32,DIRECT,no-resolve
+  - DOMAIN,chiyu.myfczy169.top,DIRECT
+  - DOMAIN,gy.666666222.shop,DIRECT
+  - DOMAIN,gy.666666222.shop,DIRECT
+  - DOMAIN,chiyu.myfczy169.top,DIRECT
   - DOMAIN,biazh.mmzhk.website,DIRECT
-  - DOMAIN,chiyu2.myfczy169.top,DIRECT
   - DOMAIN,chiyu.myfczy169.top,DIRECT
-  - DOMAIN,chiyu.myfczy169.top,DIRECT
-  - DOMAIN,chiyu.myfczy169.top,DIRECT
-  - DOMAIN,chiyu.myfczy169.top,DIRECT
-  - DOMAIN,chiyu2.myfczy169.top,DIRECT
   - DOMAIN,chiyu.myfczy169.top,DIRECT
   - IP-CIDR,50.114.177.96/32,DIRECT,no-resolve
   - DOMAIN,gy.666666222.shop,DIRECT
-  - IP-CIDR,207.90.237.179/32,DIRECT,no-resolve
-  - DOMAIN,chiyu2.myfczy169.top,DIRECT
+  - IP-CIDR,207.90.238.136/32,DIRECT,no-resolve
   - DOMAIN,chiyu.myfczy169.top,DIRECT
+  - DOMAIN,gy.666666222.shop,DIRECT
   - DOMAIN,chiyu2.myfczy169.top,DIRECT
-  - DOMAIN,chiyu.myfczy169.top,DIRECT
   - DOMAIN,gy.666666222.shop,DIRECT
   - DOMAIN,chiyu.myfczy169.top,DIRECT
   - IP-CIDR,195.133.5.127/32,DIRECT,no-resolve
-  - IP-CIDR,212.192.13.68/32,DIRECT,no-resolve
+  - DOMAIN,gy.666666222.shop,DIRECT
+  - DOMAIN,cainiao999.top,DIRECT
+  - IP-CIDR,46.17.43.122/32,DIRECT,no-resolve
   - DOMAIN,chiyu.myfczy169.top,DIRECT
+  - DOMAIN,gy.666666222.shop,DIRECT
+  - DOMAIN,gy.666666222.shop,DIRECT
+  - DOMAIN,gy.666666222.shop,DIRECT
+  - DOMAIN,chiyu.myfczy169.top,DIRECT
+  - DOMAIN,chiyu.myfczy169.top,DIRECT
+  - DOMAIN,gy.666666222.shop,DIRECT
+  - DOMAIN,hk.kfsldflk.xyz,DIRECT
+  - DOMAIN,chiyu2.myfczy169.top,DIRECT
+  - DOMAIN,gy.666666222.shop,DIRECT
   - DOMAIN,gy.666666222.shop,DIRECT
   - DOMAIN,chiyu.myfczy169.top,DIRECT
   - DOMAIN,chiyu.myfczy169.top,DIRECT
@@ -454,11 +453,12 @@ rules:
   - DOMAIN,chiyu.myfczy169.top,DIRECT
   - DOMAIN,gy.666666222.shop,DIRECT
   - DOMAIN,chiyu.myfczy169.top,DIRECT
-  - IP-CIDR,207.90.238.136/32,DIRECT,no-resolve
-  - IP-CIDR,176.32.35.148/32,DIRECT,no-resolve
+  - DOMAIN,chiyu.myfczy169.top,DIRECT
+  - DOMAIN,chiyu.myfczy169.top,DIRECT
+  - DOMAIN,chiyu.myfczy169.top,DIRECT
   - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,chiyu.myfczy169.top,DIRECT
-  - DOMAIN,chiyu.myfczy169.top,DIRECT
-  - DOMAIN,chiyu.myfczy169.top,DIRECT
-  - IP-CIDR,212.192.12.73/32,DIRECT,no-resolve
+  - DOMAIN,chiyu2.myfczy169.top,DIRECT
+  - DOMAIN,gy.666666222.shop,DIRECT
+  - DOMAIN,gy.666666222.shop,DIRECT
+  - DOMAIN,gy.666666222.shop,DIRECT
   - MATCH,手动切换
