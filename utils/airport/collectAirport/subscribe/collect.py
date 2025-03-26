@@ -553,7 +553,7 @@ if __name__ == "__main__":
         "--num",
         type=int,
         required=False,
-        default=64,
+        default=128,
         help="threads num for check proxy",
     )#“检查代理的线程数”，
 
@@ -573,7 +573,7 @@ if __name__ == "__main__":
         type=int,
         required=False,
         #default=sys.maxsize,
-        default=30,
+        default=90000,
         help="max page number when crawling telegram",
     )#抓取电报时的 ax 页码
 
